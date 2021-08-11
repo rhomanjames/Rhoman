@@ -26,7 +26,7 @@ function AboutMe() {
                     <h1 id="text" className="text-md md:text-lg lg:text-xl font-bold">My name is Rhoman James and I'm a web developer and community liaison at Fayette County Public Schools in KY. <br /> <br /> I love front-end web development and I really enjoy creating modern, engaging websites with a pleasant user experience.</h1>
                 </div>
                 {/*Buttons*/}
-                <div className="w-full mt-4 flex align-right">
+                <div id="resume"  className="w-full mt-4 flex align-right">
                     <HeartIcon className="h-6 text-gray-300 cursor-pointer hover:text-red-500 flex align-right hover:scale-110 transition" /><div className="text-gray-600">1.2k+</div>
 
                 </div>

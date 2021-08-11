@@ -10,7 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"/>
       </Head>
-      < Header />
+      <div id="about" ></div>
+      < Header/>
       <div className="min-h-screen items-center w-full">
       < Body />
       </div>

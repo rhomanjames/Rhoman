@@ -35,7 +35,7 @@ function Projects() {
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Google Clone</h1>
                     <h4>Yes, I cloned Google. Built with React and Next JS and styled with TailwindCSS, I attempted to match it as close a possible to real Google everyone knows and loves. This project made me fall in love with Front End Development!</h4>
                     {/*Hashtags*/}
-                    <div className="flex space-x-4 pb-4">
+                    <div className="flex overflow-x-scroll sm:overflow-auto space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">React JS</h4>
                         <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Next JS</h4>
                         <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>
@@ -53,7 +53,7 @@ function Projects() {
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Big City Weather</h1>
                     <h4>Want to know what the weather is right now in Sydney, Australia? What about Cancun, Mexico? Look no further! Powered by OpenWeatherAPI, you can look up the current weather in any major city in the world. Prefer farenheit rather than celsius? Don't sweat it (hehe, weather joke). Click the temperature to change between farenheit and celsius.</h4>
                     {/*Hashtags*/}
-                    <div className="flex space-x-4 pb-4">
+                    <div className="flex  overflow-x-scroll md:overflow-auto space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">HTML</h4>
                         <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">CSS</h4>
                         <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Javascript</h4>
@@ -71,7 +71,7 @@ function Projects() {
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Daily Scripture Generator</h1>
                     <h4>In my free time I love reading scriptures. I saw that my wife was going to a "Daily Bible Verse" app everyday and I thought, "Maybe I could make one of those, but better." -- So I did! Quickly refresh the screen and find new scriptures along with a call to action to assist in understanding biblical concepts more. Want to share the verse? Share it on social media by clicking the beautiful Facebook and Twitter Icons from the react-share npm.</h4>
                     {/*Hashtags*/}
-                    <div className="flex space-x-4 pb-4">
+                    <div className="flex overflow-x-scroll md:overflow-auto space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">OOP</h4>
                         <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">React JS</h4>
                         <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Next JS</h4>
@@ -90,7 +90,7 @@ function Projects() {
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Indeed UI Clone</h1>
                     <h4>I've spent so much time on Indeed applying to jobs in my lifetime that I decided clone the Indeed UI (and make it even cleaner!) -- Go to Indeed and see the similarities and slight improvements I've made. This is actually phase 1 of a greater project, a job site specifically for minority job candidates called MinoHire.</h4>
                     {/*Hashtags*/}
-                    <div className="flex space-x-4 pb-4">
+                    <div className="flex overflow-x-scroll md:overflow-auto space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">React JS</h4>
                         <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Next JS</h4>
                         <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>

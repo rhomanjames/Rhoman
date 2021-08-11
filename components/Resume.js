@@ -23,8 +23,7 @@ function Resume() {
                 </div>
                 {/*Buttons*/}
                 <div className="w-full flex align-right">
-                    <HeartIcon className="h-6 text-gray-300 cursor-pointer hover:text-red-500 flex align-right hover:scale-110 transition" /><div className="text-gray-600">1.4k+</div>
-
+                    <HeartIcon id="projects"  className="h-6 text-gray-300 cursor-pointer hover:text-red-500 flex align-right hover:scale-110 transition" /><div className="text-gray-600">1.4k+</div>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ import Contact from '../components/Contact'
 function Body() {
     return (
         
-        <div id="about">
+        <div>
             <div className="w-3/4 md:w-2/4 hover:border-blue-300 transition flex mb-8 shadow-lg ml-auto mr-auto border-2 md:mt-0 md:p-8 bg-white border-gray-200 rounded-lg">
                 < AboutMe />
             </div>
