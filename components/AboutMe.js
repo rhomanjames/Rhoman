@@ -11,7 +11,7 @@ function AboutMe() {
                 <div>
                     <Image src="https://centrecolonels.com/images/2018/7/24//rhoman_james_mtrack_2017_18.jpg?" 
                     alt="Picture of the author"
-                    className="rounded-full" 
+                    className="rounded-lg" 
                     height={52.5}
                     width={38}/>
                 </div>
@@ -24,11 +24,6 @@ function AboutMe() {
                 {/*Content Text*/}
                 <div className="flex mb-4 lg:p-0 p-4 space-y-4 flex-col text-left">
                     <h1 id="text" className="text-md md:text-lg lg:text-xl font-bold">My name is Rhoman James and I'm a web developer and community liaison at Fayette County Public Schools in KY. <br /> <br /> I love front-end web development and I really enjoy creating modern, engaging websites with a pleasant user experience.</h1>
-                </div>
-                {/*Buttons*/}
-                <div id="resume"  className="w-full mt-4 flex align-right">
-                    <HeartIcon className="h-6 text-gray-300 cursor-pointer hover:text-red-500 flex align-right hover:scale-110 transition" /><div className="text-gray-600">1.2k+</div>
-
                 </div>
             </div>
         </div>

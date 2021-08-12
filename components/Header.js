@@ -1,5 +1,6 @@
 import React from 'react'
 import { HomeIcon, UserIcon, DocumentTextIcon, CollectionIcon, MailIcon } from '@heroicons/react/solid'
+import { SocialIcon } from 'react-social-icons';
 
 
 function Header() {

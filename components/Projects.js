@@ -4,6 +4,10 @@ import { HeartIcon, MailIcon } from '@heroicons/react/solid'
 
 
 function Projects() {
+    function Like(clicked_id)
+    {
+        document.clicked_id.style.color = 'red';
+    }
     return (
         <div className="w-full flex-col med:flex-row items-center align-center">
              {/*Image and title*/}
@@ -103,11 +107,7 @@ function Projects() {
                     </div>
                 </div>
                 
-                {/*Buttons*/}
-                <div className="w-full mt-4 flex align-right">
-                    <HeartIcon className="h-6 text-gray-300 cursor-pointer hover:text-red-500 flex align-right hover:scale-110 transition" /><div className="text-gray-600">1.8k+</div>
-
-                </div>
+    
             </div>
         </div>
 

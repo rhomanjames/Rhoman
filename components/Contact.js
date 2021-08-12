@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { HeartIcon, MailIcon } from '@heroicons/react/solid'
+import { SocialIcon } from 'react-social-icons';
 
 
 function Contact() {
@@ -20,10 +21,11 @@ function Contact() {
                     <input type="text" placeholder="Email" className="border-2 p-2"/>
                     <input type="text" placeholder="Organization" className="border-2 p-2"/>
                     <textarea type="text" placeholder="Message" className="border-2 p-2"/>
-                    <button  className="bg-blue-400 p-2">Submit</button>
+                    <input type="submit" className="bg-blue-400 text-white border-2 p-2 cursor-pointer" />
                 </div>
                 {/*Buttons*/}
-        
+                <SocialIcon className="m-2 animate-bounce transition" url="https://www.linkedin.com/in/rhoman-james-b39383216/" />
+                <SocialIcon className="m-2 delay-1000 transition" url="https://github.com/rhomanjames" />
             </div>
         </div>
 
