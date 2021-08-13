@@ -16,16 +16,12 @@ function Contact() {
             </div>
             <div className="w-full p-4 ">
                 {/*Content Text*/}
-                <div className="flex mb-4 lg:p-0 p-4 space-y-4 flex-col text-left">
-                    <input type="text" placeholder="Name" className="border-2 p-2"/>
-                    <input type="text" placeholder="Email" className="border-2 p-2"/>
-                    <input type="text" placeholder="Organization" className="border-2 p-2"/>
-                    <textarea type="text" placeholder="Message" className="border-2 p-2"/>
-                    <input type="submit" className="bg-blue-400 text-white border-2 p-2 cursor-pointer" />
+                <div className="flex lg:p-0 p-4 space-y-4 flex-col text-left">
+                    <h1 className="font-bold">RhomanMJames@gmail.com</h1>
+                    <h1 className="font-bold">859-536-0453</h1>
+                    <SocialIcon className="mt-8 hover:animate-spin transition" url="https://www.linkedin.com/in/rhoman-james-b39383216/" />
                 </div>
                 {/*Buttons*/}
-                <SocialIcon className="m-2 animate-bounce transition" url="https://www.linkedin.com/in/rhoman-james-b39383216/" />
-                <SocialIcon className="m-2 delay-1000 transition" url="https://github.com/rhomanjames" />
             </div>
         </div>
 

@@ -34,26 +34,9 @@ function Projects() {
                         <a target="_blank" href="https://github.com/rhomanjames/port-foli-ooo"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
                     </div>
                 </div>
-                {/*Google*/}
-                <div className="flex lg:p-0 p-4 mt-8 space-y-4 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Google Clone</h1>
-                    <h4>Yes, I cloned Google. Built with React and Next JS and styled with TailwindCSS, I attempted to match it as close a possible to real Google everyone knows and loves. This project made me fall in love with Front End Development!</h4>
-                    {/*Hashtags*/}
-                    <div className="flex overflow-x-scroll sm:overflow-auto space-x-4 pb-4">
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">React JS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Next JS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Responsive</h4>
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">API</h4>
-                    </div>
-                    {/*Buttons*/}
-                    <div className="flex  space-x-4 border-b-2 pb-8">
-                        <a target="_blank" href=""><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
-                        <a target="_blank" href="https://github.com/rhomanjames/googly_moogly"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
-                    </div>
-                </div>
+
                  {/*Weather*/}
-                <div className="flex mt-8  lg:p-0 p-4 space-y-4 flex-col text-left">
+                 <div className="flex mt-8  lg:p-0 p-4 space-y-4 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Big City Weather</h1>
                     <h4>Want to know what the weather is right now in Sydney, Australia? What about Cancun, Mexico? Look no further! Powered by OpenWeatherAPI, you can look up the current weather in any major city in the world. Prefer farenheit rather than celsius? Don't sweat it (hehe, weather joke). Click the temperature to change between farenheit and celsius.</h4>
                     {/*Hashtags*/}
@@ -68,6 +51,24 @@ function Projects() {
                         <a target="_blank" href="https://rhomanjames.github.io/weather-smether/"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
                         <a target="_blank" href="https://github.com/rhomanjames/weather-smether"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
                     </div> 
+                </div>
+                {/*Onward Upward*/}
+                <div className="flex lg:p-0 p-4 mt-8 space-y-4 flex-col text-left">
+                    <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Onward Upward</h1>
+                    <h4>I made this for a youth mentoring program I was leading in our school district. We wanted to share some resources that the students could use to continue learning!</h4>
+                    {/*Hashtags*/}
+                    <div className="flex overflow-x-scroll sm:overflow-auto space-x-4 pb-4">
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">React JS</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Next JS</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Responsive</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">API</h4>
+                    </div>
+                    {/*Buttons*/}
+                    <div className="flex  space-x-4 border-b-2 pb-8">
+                        <a target="_blank" href="https://rhomanjames.github.io/Onward-Upward/"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
+                        <a target="_blank" href="https://github.com/rhomanjames/onward-upward"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
+                    </div>
                 </div>
                 
                 {/*Scriptures*/}

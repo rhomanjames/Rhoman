@@ -21,6 +21,10 @@ function Resume() {
                     <p id="text" className="text-sm md:text-md italic"> Fayette County Public Schools<br /> March 2020 - Present </p>
                     <h1 className="text-md md:text-lg font-semibold">Create web applications to promote districtwide initiatives.<br /> <br /> Create a mobile application in partnership with the Lexington Health Department to keep stakeholders informed on the current number of COVID-19 cases in the district. <br /> <br /> Analyze various data to report to the Superintendent's cabinet. <br /> <br /> Create, distribute and analyze data from annual surveys with over 40,000 responses. <br /> </h1>
                 </div>
+                <div>
+                    <h1 className="text-lg border-t-2 pt-4 pb-4 md:text-xl font-bold italic">Skills</h1>
+                    <h4 className="text-md md:text-lg font-semibold">React JS, Next JS, Tailwind CSS, Node JS, Bootstrap, APIs, Git/Github, UI/UX Design, Figma, Object-Oriented Programming, Adobe Creative Suite, and learning more every day! I'm also fluent in Spanish.</h4>
+                </div>
             </div>
         </div>
 
