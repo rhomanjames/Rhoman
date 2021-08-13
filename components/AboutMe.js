@@ -23,7 +23,7 @@ function AboutMe() {
             <div className="w-full p-4 ">
                 {/*Content Text*/}
                 <div className="flex mb-4 lg:p-0 p-4 space-y-4 flex-col text-left">
-                    <h1 id="text" className="text-md md:text-lg lg:text-xl font-bold">My name is Rhoman James and I'm a web developer and community liaison at Fayette County Public Schools in KY. <br /> <br /> I love front-end web development and I really enjoy creating modern, engaging websites with a pleasant user experience.</h1>
+                    <h1 className="text-md md:text-lg lg:text-xl font-bold">My name is Rhoman James and I'm a web developer and community liaison at Fayette County Public Schools in KY. <br /> <br id="resume" /> I love front-end web development and I really enjoy creating modern, engaging websites with a pleasant user experience.</h1>
                 </div>
             </div>
         </div>
