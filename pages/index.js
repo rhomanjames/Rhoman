@@ -4,7 +4,7 @@ import Body from '../components/Body'
 
 export default function Home() {
   return (
-    <div className="flex flex-col  bg-blue-200 ">
+    <div className="flex flex-col  bg-black ">
       <Head>
         <title>Rhoman | Front End Developer</title>
         <link rel="icon" href="/favicon.ico" />
