@@ -17,9 +17,9 @@ function Resume() {
             <div className="w-full p-4 ">
                 {/*Content Text*/}
                 <div className="flex mb-4 lg:p-0 p-4 space-y-3 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold italic"> Project Manager and Community Liaison</h1>
+                    <h1 id="text" className="text-lg md:text-xl font-bold italic"> Developer and Community Liaison</h1>
                     <p id="text" className="text-sm md:text-md italic"> Fayette County Public Schools<br /> March 2020 - Present </p>
-                    <h1 className="text-md md:text-lg font-semibold">Create web applications to promote districtwide initiatives.<br /> <br /> Create a mobile application in partnership with the Lexington Health Department to keep stakeholders informed on the current number of COVID-19 cases in the district. <br /> <br /> Analyze various data to report to the Superintendent's cabinet. <br /> <br /> Create, distribute and analyze data from annual surveys with over 40,000 responses. <br /> </h1>
+                    <h1 className="text-md md:text-lg font-semibold">Create web applications to promote districtwide initiatives.<br /> <br /> Create a mobile application in partnership with the Lexington Health Department to keep stakeholders informed on the current number of COVID-19 cases in the district. <br /> <br /> Analyze various data to report to the Superintendent's cabinet. <br /> <br />Coach teachers and school leaders on current best-practices in technology.<br /> </h1>
                 </div>
                 <div>
                     <h1 className="text-lg border-t-2 pt-4 pb-4 md:text-xl font-bold italic">Skills</h1>
