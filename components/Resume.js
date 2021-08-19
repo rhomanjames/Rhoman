@@ -14,7 +14,7 @@ function Resume() {
                 </div>
 
             </div>
-            <div className="w-full p-4 ">
+            <div className="w-full hover:scale-105 transition  p-4 ">
                 {/*Content Text*/}
                 <div className="flex mb-4 lg:p-0 p-4 space-y-3 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-xl font-bold italic"> Developer and Community Liaison</h1>
