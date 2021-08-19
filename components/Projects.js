@@ -22,7 +22,7 @@ function Projects() {
                 {/*Portfolio*/}
                 <div className="flex mt-2  lg:p-0 p-4 space-y-4 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">This Portfolio</h1>
-                    <h4>I had alot of fun making this website! I've made about 3 or 4 different portfolios but I felt like none of them came out exactly how I wanted them to. I developed this portfolio to mimic something we all use: social media! Like my portfolio? <a href="#contact"><span className="text-blue-300 underline">Contact me</span> </a>and we can chat about it!</h4>
+                    <h4>I had alot of fun making this website! I developed this portfolio to mimic something we all use: social media!</h4>
                     {/*Hashtags*/}
                     <div className="flex space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2 border-black p-2 rounded-lg font-semibold text-black">React JS</h4>
@@ -31,12 +31,30 @@ function Projects() {
                     </div>
                     {/*Buttons*/}
                     <div className="flex  space-x-4 border-b-2 pb-4">
-                        <a target="_blank" href="https://github.com/rhomanjames/port-foli-ooo"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
+                        <a target="_blank" href="https://github.com/rhomanjames/rhoman"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
                     </div>
                 </div>
 
-                 {/*Weather*/}
-                 <div className="flex mt-8  lg:p-0 p-4 space-y-4 flex-col text-left">
+                {/*Google*/}
+                <div className="flex mt-8  lg:p-0 p-4 space-y-4 flex-col text-left">
+                    <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Google Clone</h1>
+                    <h4> Yes, I cloned Google! Not only does it look like Google, it also works like Google thanks to the Google API! I intend on making more improvements as a continue to learn more skills. </h4>
+                    {/*Hashtags*/}
+                    <div className="flex overflow-x-scroll md:overflow-auto space-x-4 pb-4">
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">React JS</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Next JS</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Responsive</h4>
+                    </div>
+                    {/*Buttons*/}
+                    <div className="flex  space-x-4 pb-4">
+                        <a target="_blank"  href="https://google-remade.vercel.app/"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
+                        <a target="_blank"  href="https://github.com/rhomanjames/googly_moogly"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4> </a> 
+                    </div>
+                </div>
+
+                {/*Weather*/}
+                <div className="flex mt-8  lg:p-0 p-4 space-y-4 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Big City Weather</h1>
                     <h4>Want to know what the weather is right now in Sydney, Australia? What about Cancun, Mexico? Look no further! Powered by OpenWeatherAPI, you can look up the current weather in any major city in the world. Prefer farenheit rather than celsius? Don't sweat it (hehe, weather joke). Click the temperature to change between farenheit and celsius.</h4>
                     {/*Hashtags*/}
@@ -52,6 +70,25 @@ function Projects() {
                         <a target="_blank" href="https://github.com/rhomanjames/weather-smether"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
                     </div> 
                 </div>
+
+                {/*Indeed*/}
+                <div className="flex mt-8  lg:p-0 p-4 space-y-4 flex-col text-left">
+                    <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Indeed UI Clone</h1>
+                    <h4>I've spent so much time on Indeed applying to jobs in my lifetime that I decided clone the Indeed UI (and make it even cleaner!) -- Go to Indeed and see the similarities and slight improvements I've made. This is actually phase 1 of a greater project, a job site specifically for minority job candidates called MinoHire.</h4>
+                    {/*Hashtags*/}
+                    <div className="flex overflow-x-scroll md:overflow-auto space-x-4 pb-4">
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">React JS</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Next JS</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Responsive</h4>
+                    </div>
+                    {/*Buttons*/}
+                    <div className="flex  space-x-4 pb-4">
+                        <a target="_blank"  href="https://minority-hire.vercel.app/"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
+                        <a target="_blank"  href="https://github.com/rhomanjames/minority_hire"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4> </a> 
+                    </div>
+                </div>
+
                 {/*Onward Upward*/}
                 <div className="flex lg:p-0 p-4 mt-8 space-y-4 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Onward Upward</h1>
@@ -85,30 +122,10 @@ function Projects() {
                     </div>
                     {/*Buttons*/}
                     <div className="flex  space-x-4 border-b-2 pb-8">
-                        <a target="_blank"  href="https://daily-scripture-generator.vercel.app/"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a> 
+                        <a target="_blank"  href="https://yahdaily.vercel.app/"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a> 
                         <a target="_blank"  href="https://github.com/rhomanjames/daily-scripture-generator"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
                     </div>
                 </div>
-
-                {/*Indeed*/}
-                <div className="flex mt-8  lg:p-0 p-4 space-y-4 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Indeed UI Clone</h1>
-                    <h4>I've spent so much time on Indeed applying to jobs in my lifetime that I decided clone the Indeed UI (and make it even cleaner!) -- Go to Indeed and see the similarities and slight improvements I've made. This is actually phase 1 of a greater project, a job site specifically for minority job candidates called MinoHire.</h4>
-                    {/*Hashtags*/}
-                    <div className="flex overflow-x-scroll md:overflow-auto space-x-4 pb-4">
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">React JS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Next JS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Responsive</h4>
-                    </div>
-                    {/*Buttons*/}
-                    <div className="flex  space-x-4 pb-4">
-                        <a target="_blank"  href="https://minority-hire.vercel.app/"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
-                        <a target="_blank"  href="https://github.com/rhomanjames/minority_hire"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4> </a> 
-                    </div>
-                </div>
-                
-    
             </div>
         </div>
 
