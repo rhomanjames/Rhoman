@@ -48,7 +48,7 @@ function Projects() {
                     </div>
                     {/*Buttons*/}
                     <div className="flex  space-x-4 pb-4">
-                        <a target="_blank"  href="https://google-remade.vercel.app/"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
+                        <a target="_blank"  href="https://google-remade.vercel.app/"> <h4 id="location" className="text-xs bg-green-500 animate-pulse  p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
                         <a target="_blank"  href="https://github.com/rhomanjames/googly_moogly"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4> </a> 
                     </div>
                 </div>
@@ -66,7 +66,7 @@ function Projects() {
                     </div>
                     {/*Buttons*/}
                     <div className="flex  space-x-4 border-b-2 pb-8">
-                        <a target="_blank" href="https://rhomanjames.github.io/weather-smether/"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
+                        <a target="_blank" href="https://rhomanjames.github.io/weather-smether/"><h4 id="location" className="text-xs p-2 rounded-lg font-semibold bg-green-500 animate-pulse  hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
                         <a target="_blank" href="https://github.com/rhomanjames/weather-smether"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
                     </div> 
                 </div>
@@ -84,8 +84,27 @@ function Projects() {
                     </div>
                     {/*Buttons*/}
                     <div className="flex  space-x-4 pb-4">
-                        <a target="_blank"  href="https://minority-hire.vercel.app/"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
+                        <a target="_blank"  href="https://minority-hire.vercel.app/"> <h4 id="location" className="text-xs bg-green-500 animate-pulse p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
                         <a target="_blank"  href="https://github.com/rhomanjames/minority_hire"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4> </a> 
+                    </div>
+                </div>
+
+                {/*Scriptures*/}
+                <div className="flex mt-8  lg:p-0 p-4 space-y-4 flex-col text-left">
+                    <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Daily Scripture Generator</h1>
+                    <h4>In my free time I love reading scriptures. I saw that my wife was going to a "Daily Bible Verse" app everyday and I thought, "Maybe I could make one of those, but better." -- So I did! Quickly refresh the screen and find new scriptures along with a call to action to assist in understanding biblical concepts more. Want to share the verse? Share it on social media by clicking the beautiful Facebook and Twitter Icons from the react-share npm.</h4>
+                    {/*Hashtags*/}
+                    <div className="flex overflow-x-scroll md:overflow-auto space-x-4 pb-4">
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">OOP</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">React JS</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Next JS</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>
+                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">NPM</h4>
+                    </div>
+                    {/*Buttons*/}
+                    <div className="flex  space-x-4 border-b-2 pb-8">
+                        <a target="_blank"  href="https://yahdaily.vercel.app/"> <h4 id="location" className="text-xs bg-green-500 animate-pulse  p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a> 
+                        <a target="_blank"  href="https://github.com/rhomanjames/daily-scripture-generator"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
                     </div>
                 </div>
 
@@ -103,29 +122,11 @@ function Projects() {
                     </div>
                     {/*Buttons*/}
                     <div className="flex  space-x-4 border-b-2 pb-8">
-                        <a target="_blank" href="https://rhomanjames.github.io/Onward-Upward/"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
+                        <a target="_blank" href="https://rhomanjames.github.io/Onward-Upward/"><h4 id="location" className="text-xs bg-green-500 animate-pulse p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
                         <a target="_blank" href="https://github.com/rhomanjames/onward-upward"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
                     </div>
                 </div>
                 
-                {/*Scriptures*/}
-                <div className="flex mt-8  lg:p-0 p-4 space-y-4 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Daily Scripture Generator</h1>
-                    <h4>In my free time I love reading scriptures. I saw that my wife was going to a "Daily Bible Verse" app everyday and I thought, "Maybe I could make one of those, but better." -- So I did! Quickly refresh the screen and find new scriptures along with a call to action to assist in understanding biblical concepts more. Want to share the verse? Share it on social media by clicking the beautiful Facebook and Twitter Icons from the react-share npm.</h4>
-                    {/*Hashtags*/}
-                    <div className="flex overflow-x-scroll md:overflow-auto space-x-4 pb-4">
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">OOP</h4>
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">React JS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Next JS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2 border-black  p-2 rounded-lg font-semibold text-black">NPM</h4>
-                    </div>
-                    {/*Buttons*/}
-                    <div className="flex  space-x-4 border-b-2 pb-8">
-                        <a target="_blank"  href="https://yahdaily.vercel.app/"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a> 
-                        <a target="_blank"  href="https://github.com/rhomanjames/daily-scripture-generator"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
-                    </div>
-                </div>
             </div>
         </div>
 
