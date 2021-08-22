@@ -48,7 +48,7 @@ function Projects() {
                     </div>
                     {/*Buttons*/}
                     <div className="flex  space-x-4 pb-4">
-                        <a target="_blank"  href="https://google-remade.vercel.app/"> <h4 id="location" className="text-xs bg-green-500 animate-pulse  p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
+                        <a target="_blank"  href="https://google-remade.vercel.app/"> <h4 id="location" className="text-xs bg-blue-200 animate-pulse  p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-black">Live Demo</h4></a>
                         <a target="_blank"  href="https://github.com/rhomanjames/googly_moogly"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4> </a> 
                     </div>
                 </div>
@@ -66,7 +66,7 @@ function Projects() {
                     </div>
                     {/*Buttons*/}
                     <div className="flex  space-x-4 border-b-2 pb-8">
-                        <a target="_blank" href="https://rhomanjames.github.io/weather-smether/"><h4 id="location" className="text-xs p-2 rounded-lg font-semibold bg-green-500 animate-pulse  hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
+                        <a target="_blank" href="https://rhomanjames.github.io/weather-smether/"><h4 id="location" className="text-xs p-2 rounded-lg font-semibold bg-blue-200 animate-pulse  hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-black">Live Demo</h4></a>
                         <a target="_blank" href="https://github.com/rhomanjames/weather-smether"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
                     </div> 
                 </div>
@@ -84,7 +84,7 @@ function Projects() {
                     </div>
                     {/*Buttons*/}
                     <div className="flex  space-x-4 pb-4">
-                        <a target="_blank"  href="https://minority-hire.vercel.app/"> <h4 id="location" className="text-xs bg-green-500 animate-pulse p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
+                        <a target="_blank"  href="https://minority-hire.vercel.app/"> <h4 id="location" className="text-xs bg-blue-200 animate-pulse p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-black">Live Demo</h4></a>
                         <a target="_blank"  href="https://github.com/rhomanjames/minority_hire"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4> </a> 
                     </div>
                 </div>
@@ -103,7 +103,7 @@ function Projects() {
                     </div>
                     {/*Buttons*/}
                     <div className="flex  space-x-4 border-b-2 pb-8">
-                        <a target="_blank"  href="https://yahdaily.vercel.app/"> <h4 id="location" className="text-xs bg-green-500 animate-pulse  p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a> 
+                        <a target="_blank"  href="https://yahdaily.vercel.app/"> <h4 id="location" className="text-xs bg-blue-200 animate-pulse  p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-black">Live Demo</h4></a> 
                         <a target="_blank"  href="https://github.com/rhomanjames/daily-scripture-generator"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ function Projects() {
                     </div>
                     {/*Buttons*/}
                     <div className="flex  space-x-4 pb-8">
-                        <a target="_blank" href="https://rhomanjames.github.io/Onward-Upward/"><h4 id="location" className="text-xs bg-green-500 animate-pulse p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
+                        <a target="_blank" href="https://rhomanjames.github.io/Onward-Upward/"><h4 id="location" className="text-xs bg-blue-200 animate-pulse p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-black">Live Demo</h4></a>
                         <a target="_blank" href="https://github.com/rhomanjames/onward-upward"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
                     </div>
                 </div>
