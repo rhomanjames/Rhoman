@@ -4,9 +4,9 @@ import Body from '../components/Body'
 
 export default function Home() {
   return (
-    <div className="flex flex-col  bg-black ">
+    <div className="flex flex-col  bg-gray-50 ">
       <Head>
-        <title>Rhoman | Front End Developer</title>
+        <title>John James | Front End Developer</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"/>
       </Head>

@@ -9,7 +9,7 @@ function Body() {
     return (
         
         <div>
-            <div className="w-5/6  md:w-2/3 hover:border-blue-200 transition flex mb-8 shadow-lg ml-auto mr-auto border-4 md:mt-0 md:p-8 bg-white border-gray-200 rounded-lg">
+            <div className="w-5/6  md:w-2/3  transition flex mb-8 shadow-lg ml-auto mr-auto md:mt-0 md:p-8 bg-white  rounded-lg">
                 < AboutMe />
             </div>
             <div id="resume" ></div>

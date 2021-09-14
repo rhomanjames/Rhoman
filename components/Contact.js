@@ -17,7 +17,7 @@ function Contact() {
             <div className="w-full hover:scale-105 transition  p-4 ">
                 {/*Content Text*/}
                 <div className="flex lg:p-0 p-4 space-y-4 flex-col text-left">
-                    <h1 className="font-bold">RhomanMJames@gmail.com</h1>
+                    <h1 className="font-bold">JohnJamesCoding@gmail.com</h1>
                     <h1 className="font-bold">859-536-0453</h1>
                     <SocialIcon className="mt-8 hover:animate-spin transition" url="https://www.linkedin.com/in/rhoman-james-b39383216/" />
                 </div>
