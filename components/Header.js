@@ -8,7 +8,7 @@ import { SocialIcon } from 'react-social-icons';
 function Header() {
 
     return (
-        <div id="about" className="mt-0 flex-col p-2 md:flex-row items-center justify-center flex transition sticky z-10 mb-8 top-0 bg-white  w-full shadow-sm">
+        <div id="about" className="mt-0 bg-yellow-300 flex-col p-2 md:flex-row items-center justify-center flex transition sticky z-10 mb-8 top-0  w-full shadow-sm">
             {/*Logo*/}
             <Image 
                     src= "/logo.png"
