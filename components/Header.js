@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+
 import { HomeIcon, UserIcon, DocumentTextIcon, CollectionIcon, MailIcon, MenuIcon } from '@heroicons/react/solid'
 import { SocialIcon } from 'react-social-icons';
 
@@ -6,15 +8,14 @@ import { SocialIcon } from 'react-social-icons';
 function Header() {
 
     return (
-        <div id="about" className="mt-0 flex-col md:flex-row items-center flex transition justify-between sticky z-10 mb-8 top-0 bg-white  w-full shadow-md">
+        <div id="about" className="mt-0 flex-col p-2 md:flex-row items-center justify-center flex transition sticky z-10 mb-8 top-0 bg-white  w-full shadow-sm">
             {/*Logo*/}
-           <h1 className="text-lg font-bold text-black pb-2 pt-3 px-4">John James</h1>
-           <ul className=" flex px-4 py-2 text-black text-sm space-x-4 ">
-                <li> <a className="border-b-4 flex p-2 rounded-lg border-transparent hover:shadow-md hover:bg-black transition" href="#about"><UserIcon className="h-5  text-gray-500" /></a></li>
-                <li> <a className="border-b-4 flex p-2 rounded-lg border-transparent hover:shadow-md hover:bg-black transition" href="#resume"> <DocumentTextIcon className="h-5   text-gray-500" /></a></li>
-                <li> <a className="border-b-4 flex p-2 rounded-lg border-transparent hover:shadow-md hover:bg-black transition" href="#projects"> <CollectionIcon className="h-5 text-gray-500" /></a></li>
-                <li> <a className="border-b-4 flex p-2 rounded-lg border-transparent hover:shadow-md hover:bg-black transition" href="#contact"> <MailIcon className="h-5 text-gray-500" /></a></li>
-            </ul> 
+            <Image 
+                    src= "/logo.png"
+                    alt="Picture of the author"
+                    className="rounded-full absolute border-4 border-solid border-gray-100" 
+                    height={35}
+                    width={35}/> 
         </div>
     )
 }
