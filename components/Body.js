@@ -11,7 +11,7 @@ function Body() {
     return (
         
         <div className="">
-            <a target="_blank" href="JohnJamesResume.pdf" download="John James || Front End Developer"><DownloadIcon className="h-8 md:h-12 text-white fixed bottom-3 right-3 shadow-md animate-pulse z-20 bg-green-400 rounded-full p-1 md:p-2 hover:animate-bounce cursor-pointer" /></a>
+            <a target="_blank" href="John_James_Resume.pdf" download="John James || Front End Developer"><DownloadIcon className="h-8 md:h-12 text-white fixed bottom-3 right-3 shadow-md animate-pulse z-20 bg-green-400 rounded-full p-1 md:p-2 hover:animate-bounce cursor-pointer" /></a>
             <div id="aboutMe" className="w-5/6 sm:absolute lg:fixed ml-auto mr-auto md:w-1/6 left-4 transition mb-8 shadow-lg mr-auto md:mt-0 md:ml-8 md:p-2 bg-white  rounded-lg">
                 < AboutMe />
             </div>
