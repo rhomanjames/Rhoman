@@ -15,8 +15,28 @@ function Skills() {
             </div>
             <div className="w-full transition  p-4 ">
                 {/*Content Text*/}
-                <div className="flex mb-4 lg:p-0 p-2 space-y-4 flex-col text-left">
-                    <h1 className="justify-center md:text-sm lg:text-md text-center flex">React JS, Javascript, CSS, HTML, CSS Frameworks, APIs, Git/Github, UI/UX Design, NextJS, Object-Oriented Programming, Responsive Design, Content Management Systems (CMS), Wordpress Themes, Adobe Creative Suite</h1>
+                <div className="flex mb-4 space-x-4 lg:p-0 p-2 space-y-4 flex-col text-left">
+                    <h1 className="justify-center text-sm md:flex-col md:text-sm lg:text-md text-center flex">
+                        <ul className="mx-4 md:mx-0">
+                            <li>Javascript</li>
+                            <li>HTML</li> 
+                            <li>React JS</li>
+                            <li>Next JS</li>
+                            <li>Git/Github</li>
+                            <li>APIs</li>
+                            <li>Customer Service</li>
+                        </ul>
+                        <ul className="px-4 md:px-0 border-l-2 md:border-l-0">
+                            <li>CSS</li>
+                            <li>UI/UX</li> 
+                            <li>Node JS</li>
+                            <li>PHP</li>
+                            <li>Adobe Suite</li>
+                            <li>Figma</li>
+                            <li>Bilingual (Spanish)</li> 
+                            
+                        </ul>
+                    </h1>
                 </div>
             </div>
         </div>

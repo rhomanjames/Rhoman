@@ -11,7 +11,6 @@ function Resume() {
             <div className="w-full lg:pl-4 px-8 border-b-2 py-2 flex pr-4 flex-grow  align-center items-center">
                 <div className="w-full flex justify-between">
                 <h1 id="text" className="text-xl  w-full align-center h-full mt-auto flex-grow flex font-bold">Resume</h1>
-                <a target="_blank" href="JohnJamesResume.pdf" download="John James || Front End Developer"><DownloadIcon className="h-8 text-green-400 animate-bounce rounded-full p-1 hover:bg-gray-100 cursor-pointer" /></a>
                 </div>
 
             </div>
@@ -54,7 +53,7 @@ function Resume() {
                     object-contain border-4 border-solid border-gray-100" 
                     height={15}
                     width={15}/> | Danville, KY <br /> August 2018 - May 2019 </p>
-                    <h1 className="">Programmed a cognitive test using Inquisit software for a psychological study which assessed delays in response time due to mobile device distractions.<br /> <br /> Analyze empirical data about User Experience (UX) and present to college faculty and students. <br /> </h1>
+                    <h1 className="">Programmed a cognitive test using Inquisit software for a psychological study which assessed delays in response time due to mobile device distractions.<br /> <br /> Analyzed empirical data about User Experience (UX) and presented to college faculty and students. <br /> </h1>
                 </div>
                 <br /> 
                 <div className="flex mb-4 lg:p-0 p-4 space-y-3 flex-col text-left">

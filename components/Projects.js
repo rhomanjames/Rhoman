@@ -21,16 +21,16 @@ function Projects() {
             <div className="w-full p-4 ">
                 {/*Portfolio*/}
                 <div className="flex mt- transition border-b-2  lg:p-0 p-4 space-y-4 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">This Portfolio</h1>
-                    <h4>Clean UI, easy to navigate, vibrant colors. </h4>
+                    <h1 id="text" className="text-lg text-center md:text-lg lg:text-xl font-bold">This Portfolio</h1>
+                    <h4 className="text-center">Clean UI, easy to navigate, vibrant colors. </h4>
                     {/*Hashtags*/}
-                    <div className="flex space-x-4 pb-4">
+                    <div className="flex justify-center w-full space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">React JS</h4>
                         <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-lg font-semibold text-black">Next JS</h4>
                         <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>
                     </div>
                     {/*Buttons*/}
-                    <div className="flex  space-x-4 pb-4">
+                    <div className="flex justify-center w-full space-x-4 pb-4">
                         <a target="_blank" href="https://github.com/rhomanjames/rhoman"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
                     </div>
                 </div>
@@ -64,12 +64,12 @@ function Projects() {
                 {/*Weather*/}
                 <div className="flex mt-8  lg:p-0 p-4 transition  space-y-4 flex-col text-center">
                 <Image 
-                    src= "/weather1.png"
+                    src= "/weather75.png"
                     alt="Weather application"
                     className="rounded-lg
                     object-contain border-4 border-solid border-gray-100" 
-                    height={200}
-                    width={200}/> 
+                    height={216}
+                    width={381}/> 
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Big City Weather</h1>
                     <h4>Weather app powered by the OpenWeatherMap API. Click the temperature to change between celsius and farenheit.</h4>
                     {/*Hashtags*/}
@@ -88,6 +88,14 @@ function Projects() {
 
                 {/*Indeed*/}
                 <div className="flex mt-8 border-b-2 transition  lg:p-0 p-4 space-y-4 flex-col text-center">
+                <Image 
+                    src= "/IndeedPic.png"
+                    alt="Google"
+                    className=" Class
+                    Properties
+                    object-contain border-4 border-solid border-gray-100" 
+                    height={216}
+                    width={384}/> 
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Indeed UI Clone</h1>
                     <h4>Clone of Indeed's UI.</h4>
                     {/*Hashtags*/}
@@ -117,11 +125,9 @@ function Projects() {
                     <h4>Random scripture generator with a clean UI that is structured around object orentied programming. Share to social media with one click.</h4>
                     {/*Hashtags*/}
                     <div className="flex overflow-x-scroll w-full justify-center sm:overflow-x-visible space-x-4 pb-4">
-                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">OOP</h4>
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">React JS</h4>
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">Next JS</h4>
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">NPM</h4>
                     </div>
                     {/*Buttons*/}
                     <div className="flex w-full justify-center space-x-4 pb-8">
