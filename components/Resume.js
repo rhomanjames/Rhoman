@@ -18,7 +18,7 @@ function Resume() {
                 {/*Content Text*/}
                 <div className="flex border-b-2 lg:pb-4 lg:p-0 space-y-3 p-4 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-xl font-bold"> App Developer</h1> 
-                    <p id="text" className="text-sm md:text-md text-gray-400"> Fayette County Public Schools 
+                    <p id="text" className="text-xs md:text-md text-gray-400"> Fayette County Public Schools 
                     <Image 
                     src= "/FCPS_star.jpg"
                     alt="FCPS"
@@ -31,7 +31,7 @@ function Resume() {
                 </div>
                 <div className="flex border-b-2 lg:pb-4 lg:p-0 lg:pt-4 space-y-3 p-4 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-xl font-bold"> Superintendent Apprentice</h1>
-                    <p id="text" className="text-sm md:text-md text-gray-400"> Fayette County Public Schools 
+                    <p id="text" className="text-xs md:text-md text-gray-400"> Fayette County Public Schools 
                     <Image 
                     src= "/FCPS_star.jpg"
                     alt="FCPS"
@@ -45,20 +45,20 @@ function Resume() {
                 <br/>
                 <div className="flex lg:p-0 lg:pb-4 border-b-2 p-4 space-y-3 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-xl font-bold">Behavior Research Fellow</h1>
-                    <p id="text" className="text-sm md:text-md text-gray-400"> Centre College 
+                    <p id="text" className="text-xs md:text-md text-gray-400"> Centre College 
                     <Image 
                     src= "/centre.png"
                     alt="FCPS"
                     className="m-4 absolute right-4 object-left
                     object-contain border-4 border-solid border-gray-100" 
                     height={15}
-                    width={15}/> | Danville, KY <br /> August 2018- May 2019 </p>
+                    width={15}/> | Danville, KY <br /> August 2018 - May 2019 </p>
                     <h1 className="">Programmed a cognitive test using Inquisit software for a psychological study which assessed delays in response time due to mobile device distractions.<br /> <br /> Analyze empirical data about User Experience (UX) and present to college faculty and students. <br /> </h1>
                 </div>
                 <br /> 
                 <div className="flex mb-4 lg:p-0 p-4 space-y-3 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold">AP Computer Science Principles Instructor</h1>
-                    <p id="text" className="text-sm md:text-md text-gray-400">Uncommon Schools | Boston, MA<br /> June 2018-August 2018 </p>
+                    <h1 id="text" className="text-lg md:text-xl font-bold"> Computer Science teaching Fellow </h1>
+                    <p id="text" className="text-xs md:text-md text-gray-400">Uncommon Schools | Boston, MA<br /> June 2018 - August 2018 </p>
                     <h1 className="">Curated 10 weeks of various lessons, effectively teaching the fundamentals of computer science resulting in 100 percent of students passing the final exam.</h1>
                 </div>
             </div>

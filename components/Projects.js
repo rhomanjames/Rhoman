@@ -22,6 +22,7 @@ function Projects() {
                 {/*Portfolio*/}
                 <div className="flex mt- transition border-b-2  lg:p-0 p-4 space-y-4 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">This Portfolio</h1>
+                    <h4>Clean UI, easy to navigate, vibrant colors. </h4>
                     {/*Hashtags*/}
                     <div className="flex space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">React JS</h4>
