@@ -26,7 +26,7 @@ function Resume() {
                     object-contain border-4 border-solid border-gray-100" 
                     height={15}
                     width={15}/> | Lexington, KY   
-                    <br /> March 2020 - Present </p>
+                    <br /> February 2021 - Present </p>
                     <h1 className="">Created a  cross platform application for Fayette county’s Student Support Professional Institute (SSPI) to promote districtwide initiatives. <br /> <br /> Published the SSPI application as a mechanism to facilitate the SSPI district wide conference for medical health professionals.</h1>
                 </div>
                 <div className="flex border-b-2 lg:pb-4 lg:p-0 lg:pt-4 space-y-3 p-4 flex-col text-left">
@@ -39,7 +39,7 @@ function Resume() {
                     object-contain border-4 border-solid border-gray-100" 
                     height={15}
                     width={15}/>
-                    | Lexington, KY <br /> March 2020 - Present </p>
+                    | Lexington, KY <br /> March 2020 - February 2021</p>
                     <h1 className="">Work with the Superintendent's cabinet and Lexington Fayette County Health Department to build a mobile application to inform stakeholders about COVID-19.</h1>
                 </div>
                 <br/>
