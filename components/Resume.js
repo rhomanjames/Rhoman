@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { HeartIcon, MailIcon } from '@heroicons/react/solid'
+import { HeartIcon, MailIcon, DownloadIcon } from '@heroicons/react/solid'
 
 
 function Resume() {
@@ -9,8 +9,9 @@ function Resume() {
         <div className="w-full flex-col med:flex-row items-center align-center">
              {/*Image and title*/}
             <div className="w-full lg:pl-4 px-8 border-b-2 py-2 flex pr-4 flex-grow  align-center items-center">
-                <div className="w-full">
+                <div className="w-full flex justify-between">
                 <h1 id="text" className="text-xl  w-full align-center h-full mt-auto flex-grow flex font-bold">Resume</h1>
+                <a target="_blank" href="JohnJamesResume.pdf" download="John James || Front End Developer"><DownloadIcon className="h-8 text-green-400 animate-bounce rounded-full p-1 hover:bg-gray-100 cursor-pointer" /></a>
                 </div>
 
             </div>
@@ -27,7 +28,7 @@ function Resume() {
                     height={15}
                     width={15}/> | Lexington, KY   
                     <br /> March 2020 - Present </p>
-                    <h1 className="">Create web applications to promote districtwide initiatives.</h1>
+                    <h1 className="">Created a  cross platform application for Fayette county’s Student Support Professional Institute (SSPI) to promote districtwide initiatives. <br /> <br /> Published the SSPI application as a mechanism to facilitate the SSPI district wide conference for medical health professionals.</h1>
                 </div>
                 <div className="flex border-b-2 lg:pb-4 lg:p-0 lg:pt-4 space-y-3 p-4 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-xl font-bold"> Superintendent Apprentice</h1>
@@ -57,7 +58,7 @@ function Resume() {
                 </div>
                 <br /> 
                 <div className="flex mb-4 lg:p-0 p-4 space-y-3 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold"> Computer Science teaching Fellow </h1>
+                    <h1 id="text" className="text-lg md:text-xl font-bold"> Computer Science Teaching Fellow </h1>
                     <p id="text" className="text-xs md:text-md text-gray-400">Uncommon Schools | Boston, MA<br /> June 2018 - August 2018 </p>
                     <h1 className="">Curated 10 weeks of various lessons, effectively teaching the fundamentals of computer science resulting in 100 percent of students passing the final exam.</h1>
                 </div>

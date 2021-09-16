@@ -38,13 +38,13 @@ function Projects() {
                 {/*Google*/}
                 <div className="flex mt-8 lg:p-0 transition justify-center w-full  p-4 border-b-2 object-left space-y-4 flex-col text-center ">
                 <Image 
-                    src= "/Google1.png"
+                    src= "/Google.png"
                     alt="Google"
                     className=" Class
                     Properties
                     object-contain border-4 border-solid border-gray-100" 
-                    height={200}
-                    width={200}/> 
+                    height={216}
+                    width={384}/> 
                     <h1 id="text" className="text-lg justify-center w-full md:text-lg lg:text-xl font-bold">Google Clone</h1>
                     <h4> Google's UI with search functionality powered by the Google API. </h4>
                     {/*Hashtags*/}
@@ -63,6 +63,13 @@ function Projects() {
 
                 {/*Weather*/}
                 <div className="flex mt-8  lg:p-0 p-4 transition  space-y-4 flex-col text-center">
+                <Image 
+                    src= "/weather1.png"
+                    alt="Weather application"
+                    className="rounded-lg
+                    object-contain border-4 border-solid border-gray-100" 
+                    height={200}
+                    width={200}/> 
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Big City Weather</h1>
                     <h4>Weather app powered by the OpenWeatherMap API. Click the temperature to change between celsius and farenheit.</h4>
                     {/*Hashtags*/}
@@ -99,6 +106,13 @@ function Projects() {
 
                 {/*Scriptures*/}
                 <div className="flex mt-8  lg:p-0 p-4 transition border-b-2 border-gray-50  space-y-4 flex-col text-center">
+                <Image 
+                    src= "/Scriptures.png"
+                    alt="Weather application"
+                    className="rounded-lg
+                    object-contain border-4 border-solid border-gray-100" 
+                    height={216}
+                    width={384}/> 
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Daily Scripture Generator</h1>
                     <h4>Random scripture generator with a clean UI that is structured around object orentied programming. Share to social media with one click.</h4>
                     {/*Hashtags*/}
