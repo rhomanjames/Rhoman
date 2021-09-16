@@ -14,7 +14,7 @@ function Projects() {
             <div className="w-full lg:pl-4 border-b-2 pb-4 px-8 py-2 flex pr-4 flex-grow  align-center items-center">
 
                 <div className="w-full">
-                <h1 className="text-xl  w-full align-center h-full mt-auto flex-grow flex font-bold">Projects</h1>
+                <h1 className="text-xl  w-full align-center justify-center h-full mt-auto flex-grow flex font-bold">Projects</h1>
                 </div>
 
             </div>
