@@ -17,19 +17,42 @@ function Resume() {
             <div className="w-full transition  p-4 ">
                 {/*Content Text*/}
                 <div className="flex border-b-2 lg:pb-4 lg:p-0 space-y-3 p-4 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold"> App Developer</h1>
-                    <p id="text" className="text-sm md:text-md text-gray-400"> Fayette County Public Schools | Lexington, KY <br /> March 2020 - Present </p>
-                    <h1 className="">Work with the Superintendent's cabinet and Lexington Fayette County Health Department to build a mobile application to inform stakeholders about COVID-19. </h1>
-                </div>
-                <div className="flex border-b-2 lg:pb-4 lg:p-0 space-y-3 p-4 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold"> Superintendent Apprentice</h1>
-                    <p id="text" className="text-sm md:text-md text-gray-400"> Fayette County Public Schools | Lexington, KY <br /> March 2020 - Present </p>
+                    <h1 id="text" className="text-lg md:text-xl font-bold"> App Developer</h1> 
+                    <p id="text" className="text-sm md:text-md text-gray-400"> Fayette County Public Schools 
+                    <Image 
+                    src= "/FCPS_star.jpg"
+                    alt="FCPS"
+                    className="m-4 absolute right-4 object-left
+                    object-contain border-4 border-solid border-gray-100" 
+                    height={15}
+                    width={15}/> | Lexington, KY   
+                    <br /> March 2020 - Present </p>
                     <h1 className="">Create web applications to promote districtwide initiatives.</h1>
+                </div>
+                <div className="flex border-b-2 lg:pb-4 lg:p-0 lg:pt-4 space-y-3 p-4 flex-col text-left">
+                    <h1 id="text" className="text-lg md:text-xl font-bold"> Superintendent Apprentice</h1>
+                    <p id="text" className="text-sm md:text-md text-gray-400"> Fayette County Public Schools 
+                    <Image 
+                    src= "/FCPS_star.jpg"
+                    alt="FCPS"
+                    className="m-4 absolute right-4 object-left
+                    object-contain border-4 border-solid border-gray-100" 
+                    height={15}
+                    width={15}/>
+                    | Lexington, KY <br /> March 2020 - Present </p>
+                    <h1 className="">Work with the Superintendent's cabinet and Lexington Fayette County Health Department to build a mobile application to inform stakeholders about COVID-19.</h1>
                 </div>
                 <br/>
                 <div className="flex lg:p-0 lg:pb-4 border-b-2 p-4 space-y-3 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-xl font-bold">Behavior Research Fellow</h1>
-                    <p id="text" className="text-sm md:text-md text-gray-400"> Centre College | Danville, KY <br /> August 2018- May 2019 </p>
+                    <p id="text" className="text-sm md:text-md text-gray-400"> Centre College 
+                    <Image 
+                    src= "/centre.png"
+                    alt="FCPS"
+                    className="m-4 absolute right-4 object-left
+                    object-contain border-4 border-solid border-gray-100" 
+                    height={15}
+                    width={15}/> | Danville, KY <br /> August 2018- May 2019 </p>
                     <h1 className="">Programmed a cognitive test using Inquisit software for a psychological study which assessed delays in response time due to mobile device distractions.<br /> <br /> Analyze empirical data about User Experience (UX) and present to college faculty and students. <br /> </h1>
                 </div>
                 <br /> 
