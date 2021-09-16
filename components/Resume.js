@@ -6,7 +6,7 @@ import { HeartIcon, MailIcon, DownloadIcon } from '@heroicons/react/solid'
 function Resume() {
     
     return (
-        <div className="w-full flex-col med:flex-row items-center align-center">
+        <div  id="home" className="w-full flex-col med:flex-row items-center align-center">
              {/*Image and title*/}
             <div className="w-full lg:pl-4 px-8 border-b-2 py-2 flex pr-4 flex-grow  align-center items-center">
                 <div className="w-full flex justify-between">
