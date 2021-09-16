@@ -17,21 +17,26 @@ function Resume() {
             <div className="w-full transition  p-4 ">
                 {/*Content Text*/}
                 <div className="flex border-b-2 lg:pb-4 lg:p-0 space-y-3 p-4 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold"> Developer and Community Liaison</h1>
+                    <h1 id="text" className="text-lg md:text-xl font-bold"> App Developer</h1>
                     <p id="text" className="text-sm md:text-md text-gray-400"> Fayette County Public Schools | Lexington, KY <br /> March 2020 - Present </p>
-                    <h1 className="">Create web applications to promote districtwide initiatives.<br /> <br /> Create a mobile application in partnership with the Lexington Health Department to keep stakeholders informed on the current number of COVID-19 cases in the district. <br /> <br /> Analyze various data to report to the Superintendent's cabinet. <br /> <br />Coach teachers and school leaders on current best-practices in technology.<br /> </h1>
+                    <h1 className="">Work with the Superintendent's cabinet and Lexington Fayette County Health Department to build a mobile application to inform stakeholders about COVID-19. </h1>
+                </div>
+                <div className="flex border-b-2 lg:pb-4 lg:p-0 space-y-3 p-4 flex-col text-left">
+                    <h1 id="text" className="text-lg md:text-xl font-bold"> Superintendent Apprentice</h1>
+                    <p id="text" className="text-sm md:text-md text-gray-400"> Fayette County Public Schools | Lexington, KY <br /> March 2020 - Present </p>
+                    <h1 className="">Create web applications to promote districtwide initiatives.</h1>
                 </div>
                 <br/>
                 <div className="flex lg:p-0 lg:pb-4 border-b-2 p-4 space-y-3 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold">Behavior Researcher</h1>
+                    <h1 id="text" className="text-lg md:text-xl font-bold">Behavior Research Fellow</h1>
                     <p id="text" className="text-sm md:text-md text-gray-400"> Centre College | Danville, KY <br /> August 2018- May 2019 </p>
-                    <h1 className="">Write code for computer software to assess delays in response time due to mobile device distractions.<br /> <br /> Analyze empirical data about User Experience (UX) and present to college faculty and students. <br /> </h1>
+                    <h1 className="">Programmed a cognitive test using Inquisit software for a psychological study which assessed delays in response time due to mobile device distractions.<br /> <br /> Analyze empirical data about User Experience (UX) and present to college faculty and students. <br /> </h1>
                 </div>
                 <br /> 
                 <div className="flex mb-4 lg:p-0 p-4 space-y-3 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-xl font-bold">AP Computer Science Principles Instructor</h1>
                     <p id="text" className="text-sm md:text-md text-gray-400">Uncommon Schools | Boston, MA<br /> June 2018-August 2018 </p>
-                    <h1 className="">Serve as an AP Computer Science instructor to 15 rising 11th graders.<br /> <br /> Complete various coding challenges daily.<br /> <br />  100% pass rate for students on the end-of-semester exam.</h1>
+                    <h1 className="">Curated 10 weeks of various lessons, effectively teaching the fundamentals of computer science resulting in 100 percent of students passing the final exam.</h1>
                 </div>
             </div>
         </div>
