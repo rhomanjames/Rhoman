@@ -35,7 +35,7 @@ function Skills() {
             <div className="w-full transition  px-4 pt-2 ">
                 {/*Content Text*/}
                 <div className="flex mb-4 space-x-4 lg:p-0 p-2 justify-center space-y-4 flex-col text-left">
-                    <h1 className="justify-center text-sm md:flex-col md:text-sm lg:text-md text-center flex">
+                    <h1 className="justify-center pb-4 text-sm md:flex-col md:text-sm lg:text-md text-center flex">
                         <ul className="mx-4 w-1/2 md:w-full  md:mx-0">
                             <li>UI/UX</li>
                             <li>Research</li> 

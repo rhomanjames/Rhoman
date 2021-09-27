@@ -97,7 +97,7 @@ function Projects() {
                     height={216}
                     width={384}/> 
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Indeed UI Clone</h1>
-                    <h4>Clone of Indeed's UI.</h4>
+                    <h4>A remake of Indeed's renowned UI, with slight improvements.</h4>
                     {/*Hashtags*/}
                     <div className="flex overflow-x-scroll w-full justify-center sm:overflow-x-visible space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">React JS</h4>
