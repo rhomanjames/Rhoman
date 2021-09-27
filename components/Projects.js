@@ -40,7 +40,7 @@ function Projects() {
                 {/*Portfolio*/}
                 <div className="flex mt- transition border-b-2  lg:p-0 p-4 space-y-4 flex-col text-left">
                 <Image 
-                    src= "/Portfolio.png"
+                    src= "/portfolio.png"
                     alt="Portfolio"
                     className=" Class
                     Properties
