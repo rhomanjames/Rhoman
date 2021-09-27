@@ -17,7 +17,7 @@ function Resume() {
             <div className="w-full transition  p-4 ">
                 {/*Content Text*/}
                 <div className="flex border-b-2 lg:pb-4 lg:p-0 space-y-3 p-4 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold"> App Developer</h1> 
+                    <h1 id="text" className="text-lg md:text-xl font-bold"> Web Developer and Designer</h1> 
                     <p id="text" className="text-xs md:text-md text-gray-400"> Fayette County Public Schools 
                     <Image 
                     src= "/FCPS_star.jpg"
@@ -30,7 +30,7 @@ function Resume() {
                     <h1 className="">Created a  cross platform application for Fayette county’s Student Support Professional Institute (SSPI) to promote districtwide initiatives. <br /> <br /> Published the SSPI application as a mechanism to facilitate the SSPI district wide conference for medical health professionals.</h1>
                 </div>
                 <div className="flex border-b-2 lg:pb-4 lg:p-0 lg:pt-4 space-y-3 p-4 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold"> Superintendent Apprentice</h1>
+                    <h1 id="text" className="text-lg md:text-xl font-bold">Project Manager</h1>
                     <p id="text" className="text-xs md:text-md text-gray-400"> Fayette County Public Schools 
                     <Image 
                     src= "/FCPS_star.jpg"
@@ -44,7 +44,7 @@ function Resume() {
                 </div>
                 <br/>
                 <div className="flex lg:p-0 lg:pb-4 border-b-2 p-4 space-y-3 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold">Behavior Research Fellow</h1>
+                    <h1 id="text" className="text-lg md:text-xl font-bold">Behavior Researcher</h1>
                     <p id="text" className="text-xs md:text-md text-gray-400"> Centre College 
                     <Image 
                     src= "/centre.png"
@@ -57,7 +57,7 @@ function Resume() {
                 </div>
                 <br /> 
                 <div className="flex mb-4 lg:p-0 p-4 space-y-3 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold"> Computer Science Teaching Fellow </h1>
+                    <h1 id="text" className="text-lg md:text-xl font-bold"> Computer Science Instructor</h1>
                     <p id="text" className="text-xs md:text-md text-gray-400">Uncommon Schools | Boston, MA<br /> June 2018 - August 2018 </p>
                     <h1 className="">Curated 10 weeks of various lessons, effectively teaching the fundamentals of computer science resulting in 100 percent of students passing the final exam.</h1>
                 </div>

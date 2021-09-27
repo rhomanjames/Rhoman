@@ -64,25 +64,17 @@ function Projects() {
                 {/*Weather*/}
                 <div className="flex mt-8  lg:p-0 p-4 transition  space-y-4 flex-col text-center">
                 <Image 
-                    src= "/weather75.png"
-                    alt="Weather application"
+                    src= "/DesignHacks.png"
+                    alt="88 Design Hacks"
                     className="rounded-lg
                     object-contain border-4 border-solid border-gray-100" 
-                    height={216}
-                    width={381}/> 
-                    <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Big City Weather</h1>
-                    <h4>Weather app powered by the OpenWeatherMap API. Click the temperature to change between celsius and farenheit.</h4>
-                    {/*Hashtags*/}
-                    <div className="flex w-full justify-center overflow-x-scroll  sm:overflow-x-visible space-x-4 pb-4">
-                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">HTML</h4>
-                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">CSS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">Javascript</h4>
-                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">API</h4>
-                    </div>
+                    height={300}
+                    width={300}/> 
+                    <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">88 UI/UX Design Hacks You Must Know</h1>
+                    <h4>Free eBook I wrote to assist new UI/UX developers with core concepts. Set to release in October.</h4>
                     {/*Buttons*/}
                     <div className="flex w-full justify-center space-x-4 border-b-2 pb-8">
-                        <a target="_blank" href="https://rhomanjames.github.io/weather-smether/"><h4 id="location" className="text-xs p-2 rounded-lg font-semibold bg-yellow-300 animate-pulse  hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-black">Live Demo</h4></a>
-                        <a target="_blank" href="https://github.com/rhomanjames/weather-smether"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
+                        <a target="_blank" download="88 UI and UX Design Hacks You Must Know" href="/88Hacks.pdf"><h4 id="location" className="text-xs p-2 rounded-lg font-semibold bg-yellow-300 animate-pulse  hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-black">Preview Book</h4></a>
                     </div> 
                 </div>
 
@@ -112,11 +104,11 @@ function Projects() {
                     </div>
                 </div>
 
-                {/*Scriptures*/}
+                {/*Design Hacks*/}
                 <div className="flex mt-8  lg:p-0 p-4 transition border-b-2 border-gray-50  space-y-4 flex-col text-center">
                 <Image 
                     src= "/Scriptures.png"
-                    alt="Weather application"
+                    alt="Scripture"
                     className="rounded-lg
                     object-contain border-4 border-solid border-gray-100" 
                     height={216}
