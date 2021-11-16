@@ -24,7 +24,7 @@ function AboutMe() {
             <div className="w-full transition  p-4 ">
                 {/*Content Text*/}
                 <div className="flex lg:p-0 p-1 space-y-4 flex-col text-left">
-                    <h1 className="justify-center md:text-sm lg:text-md flex align-center text-center">My name is John James and I'm a web developer and designer at Fayette County Public Schools in Lexington, Kentucky.<br className="border-b-2 border-gray-50"/></h1>
+                    <h1 className="justify-center md:text-sm lg:text-md flex align-center text-center">My name is John James and I'm a UX professional<br className="border-b-2 border-gray-50"/></h1>
                 </div>
             </div>
         </div>
