@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col bg-gray-200">
       <Head>
-        <title>John James | User Experienc</title>
+        <title>John James | User Experience</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css"/>
       </Head>
