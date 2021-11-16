@@ -30,7 +30,7 @@ function Projects() {
                     height={300}
                     width={300}/> 
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">88 UI/UX Design Hacks You Must Know</h1>
-                    <h4 className="md:w-3/4 ml-auto mr-auto">Free eBook I wrote to help new UI/UX developers understand core concepts. Set to release in October 2021.</h4>
+                    <h4 className="md:w-3/4 ml-auto mr-auto">Free eBook I wrote to help new UI/UX developers understand core concepts. Still in production.</h4>
                     {/*Buttons*/}
                     <div className="flex w-full justify-center space-x-4 border-b-2 pb-8">
                         <a target="_blank" download="88 UI and UX Design Hacks You Must Know" href="/88Hacks.pdf"><h4 id="location" className="text-xs p-2 rounded-lg font-semibold bg-yellow-300 animate-pulse  hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-black">Preview Book</h4></a>
@@ -48,7 +48,7 @@ function Projects() {
                     height={216}
                     width={384}/> 
                     <h1 id="text" className="text-lg text-center pt-2 md:text-lg lg:text-xl font-bold">This Portfolio</h1>
-                    <h4 className="text-center">Clean UI, easy to navigate, vibrant colors. </h4>
+                    <h4 className="text-center">Clean UI, easy to navigate, vibrant colors, simple. </h4>
                     {/*Hashtags*/}
                     <div className="flex justify-center w-full space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">React JS</h4>
@@ -83,32 +83,6 @@ function Projects() {
                     <div className="flex  w-full justify-center space-x-4 pb-4">
                         <a target="_blank"  href="https://rhomanjames.github.io/Onward-Upward/"> <h4 id="location" className="text-xs bg-yellow-300 animate-pulse  p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-black">Live Demo</h4></a>
                         <a target="_blank"  href="https://github.com/rhomanjames/Onward-Upward"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4> </a> 
-                    </div>
-                </div>
-
-                {/*Indeed*/}
-                <div className="flex mt-8 border-b-2 transition  lg:p-0 p-4 space-y-4 flex-col text-center">
-                <Image 
-                    src= "/IndeedPic.png"
-                    alt="Google"
-                    className=" Class
-                    Properties
-                    object-contain border-4 border-solid border-gray-100" 
-                    height={216}
-                    width={384}/> 
-                    <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Indeed UI Clone</h1>
-                    <h4>A remake of Indeed's renowned UI, with slight improvements.</h4>
-                    {/*Hashtags*/}
-                    <div className="flex overflow-x-scroll w-full justify-center sm:overflow-x-visible space-x-4 pb-4">
-                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">React JS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">Next JS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">Responsive</h4>
-                    </div>
-                    {/*Buttons*/}
-                    <div className="flex w-full justify-center space-x-4 pb-4">
-                        <a target="_blank"  href="https://minority-hire.vercel.app/"> <h4 id="location" className="text-xs bg-yellow-300 animate-pulse p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-black">Live Demo</h4></a>
-                        <a target="_blank"  href="https://github.com/rhomanjames/minority_hire"> <h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4> </a> 
                     </div>
                 </div>
 
