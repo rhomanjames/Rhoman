@@ -17,6 +17,13 @@ function Resume() {
             <div className="w-full transition  p-4 ">
                 {/*Content Text*/}
                 <div className="flex border-b-2 lg:pb-4 lg:p-0 space-y-3 p-4 flex-col text-left">
+                    <h1 id="text" className="text-lg md:text-xl font-bold"> User Experience Lead</h1> 
+                    <p id="text" className="text-xs md:text-md text-gray-400"> North American Plastics
+                    | Dallas, TX  
+                    <br /> 2021 </p>
+                    <h1 className="">Oversee the user experience and user interface of our e-commerce stores for the 30+ plastics companies under our umbrella<br /> <br /> Conduct user research, oversee the user experience life cycle, create wireframes and high-fidelity prototypes </h1>
+                </div>
+                <div className="flex border-b-2 lg:pb-4 lg:p-0 space-y-3 p-4 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-xl font-bold"> UX Designer and UI Developer</h1> 
                     <p id="text" className="text-xs md:text-md text-gray-400"> Fayette County Public Schools 
                     <Image 
@@ -26,8 +33,8 @@ function Resume() {
                     object-contain border-4 border-solid border-gray-100" 
                     height={15}
                     width={15}/> | Lexington, KY   
-                    <br /> February 2021 - Present </p>
-                    <h1 className="">Created a  cross platform application for Fayette county’s Student Support Professional Institute (SSPI) to promote districtwide initiatives. <br /> <br /> Published the SSPI application as a mechanism to facilitate the SSPI district wide conference for medical health professionals.</h1>
+                    <br /> 2021 </p>
+                    <h1 className="">Conduct user experience research, build wireframes and prototypes based on stakeholders input<br /> <br /> Build web, and mobile applications to be used by Fayette County Public Schools employees and community partners.</h1>
                 </div>
                 <div className="flex border-b-2 lg:pb-4 lg:p-0 lg:pt-4 space-y-3 p-4 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-xl font-bold">Project Manager</h1>
@@ -40,7 +47,7 @@ function Resume() {
                     height={15}
                     width={15}/>
                     | Lexington, KY <br /> March 2020 - February 2021</p>
-                    <h1 className="">Work with the Superintendent's cabinet and Lexington Fayette County Health Department to build a mobile application to inform stakeholders about COVID-19.</h1>
+                    <h1 className="">Collaborated with Superintendent’s Cabinet and Lexington Health Department to build a mobile application to inform stakeholders about COVID-19. <br> Developed the 5 star public safety FPCS KY Matrix app, which is available on Google Play and Apple App Store. </br></h1>
                 </div>
                 <br/>
                 <div className="flex lg:p-0 lg:pb-4 border-b-2 p-4 space-y-3 flex-col text-left">
