@@ -21,7 +21,7 @@ function Resume() {
                     <p id="text" className="text-xs md:text-md text-gray-400"> North American Plastics
                     | Dallas, TX  
                     <br /> 2021 </p>
-                    <h1 className="">Oversee the user experience and user interface of our e-commerce stores for the 30+ plastics companies under our umbrella including <a href="https://www.uscutter.com/">US Cutter<a> and <a href="https://www.totalplastics.com/">Total Plastics</a><br /> <br /> Conduct user research, oversee the user experience life cycle, create wireframes and high-fidelity prototypes </h1>
+                    <h1 className="">Oversee the user experience and user interface of our e-commerce stores for the 30+ plastics companies under our umbrella including <a href="https://www.uscutter.com/">US Cutter</a> and <a href="https://www.totalplastics.com/">Total Plastics</a><br /> <br /> Conduct user research, oversee the user experience life cycle, create wireframes and high-fidelity prototypes </h1>
                 </div>
                 <div className="flex border-b-2 lg:pb-4 lg:p-0 space-y-3 p-4 flex-col text-left">
                     <h1 id="text" className="text-lg md:text-xl font-bold"> UX Designer and UI Developer</h1> 
