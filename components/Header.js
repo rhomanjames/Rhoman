@@ -14,7 +14,7 @@ function Header() {
                     href="#home"
                     src= "/logo.png"
                     alt="Picture of the author"
-                    className="rounded-full absolute border-4 border-solid border-gray-100" 
+                    className="rounded-full  absolute border-4 border-solid border-gray-100" 
                     height={35}
                     width={35}/> 
         </div>
