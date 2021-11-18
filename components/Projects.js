@@ -11,7 +11,7 @@ function Projects() {
     return (
         <div className="w-full flex-col med:flex-row items-center align-center">
              {/*Image and title*/}
-            <div className="w-full border-b-2 pb-4 px-8 py-2 flex pr-4 flex-grow  align-center items-center">
+            <div className="w-full border-b-2 pb-4 px-8 py-2 flex flex-grow  align-center items-center">
 
                 <div className="w-full">
                 <h1 className="text-xl  w-full align-center justify-center h-full mt-auto flex-grow flex font-bold">Projects</h1>
