@@ -40,28 +40,24 @@ function Projects() {
                 {/*Portfolio*/}
                 <div className="flex mt- transition border-b-2  lg:p-0 p-4 space-y-4 flex-col text-left">
                 <Image 
-                    src= "/portfolio.png"
-                    alt="Portfolio"
+                    src= "/MinoHire.png"
+                    alt="MinoHire-UI"
+                    download="/MinoHire.png"
                     className=" Class
                     Properties
                     object-contain border-4 border-solid border-gray-100" 
                     height={216}
                     width={384}/> 
-                    <h1 id="text" className="text-lg text-center pt-2 md:text-lg lg:text-xl font-bold">This Portfolio</h1>
-                    <h4 className="text-center">Clean UI, easy to navigate, vibrant colors, simple. </h4>
+                    <a><h1 href="https://www.canva.com/design/DAEr7U5a44A/dKtOljxJu_Apr1vhX134ew/view?utm_content=DAEr7U5a44A\u0026utm_campaign=designshare\u0026utm_medium=link\u0026utm_source=publishpresent" id="text" className="text-lg cursor-pointer text-center pt-2 md:text-lg lg:text-xl font-bold">MinoHire</h1></a>
+                    <h4 className="text-center">User interface built for a Minority-focused job board. </h4>
                     {/*Hashtags*/}
                     <div className="flex justify-center w-full space-x-4 pb-4">
-                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">React JS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-lg font-semibold text-black">Next JS</h4>
-                        <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-lg font-semibold text-black">Tailwind CSS</h4>
-                    </div>
-                    {/*Buttons*/}
-                    <div className="flex justify-center w-full space-x-4 pb-4">
-                        <a target="_blank" href="https://github.com/rhomanjames/rhoman"><h4 id="location" className="text-xs bg-black p-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-white">GitHub</h4></a>
+                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">UI</h4>
+                        <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-lg font-semibold text-black">UX</h4>
                     </div>
                 </div>
 
-                {/*Google*/}
+                {/*Onward*/}
                 <div className="flex mt-8 lg:p-0 transition justify-center w-full  p-4 border-b-2 object-left space-y-4 flex-col text-center ">
                 <Image 
                     src= "/Onward.png"
@@ -72,7 +68,7 @@ function Projects() {
                     height={216}
                     width={384}/> 
                     <h1 id="text" className="text-lg justify-center w-full md:text-lg lg:text-xl font-bold">Onward Upward</h1>
-                    <h4> Built for a youth mentoring group to compile learning resources. </h4>
+                    <h4> Built for a youth mentoring group to compile learning resources. Simple and clean UI optimized for quick access. </h4>
                     {/*Hashtags*/}
                     <div className="flex overflow-x-scroll w-full justify-center sm:overflow-x-visible space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-lg font-semibold text-black">HTML</h4>
