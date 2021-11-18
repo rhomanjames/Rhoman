@@ -37,22 +37,18 @@ function Skills() {
                 <div className="flex mb-4 space-x-4 lg:p-0 p-2 justify-center space-y-4 flex-col text-left">
                     <h1 className="justify-center pb-4 text-sm md:flex-col md:text-sm lg:text-md text-center flex">
                         <ul className="mx-4 w-1/2 md:w-full  md:mx-0">
-                            <li>UI/UX</li>
-                            <li>Research</li> 
-                            <li>Figma</li>
-                            <li>Adobe Suite</li>
-                            <li>Git/Github</li>
-                            <li>React JS</li>
-                            <li>APIs</li>
+                            <li>UX Design</li>
+                            <li>UX Research</li> 
+                            <li>Wireframes</li>
+                            <li>Prototypes</li>
+                            <li>Adobe Creative Suite</li>
                         </ul>
-                        <ul className="px-4 w-1/2 md:w-full md:px-0 md:border-l-0">
-                            <li>HTML</li>
-                            <li>CSS</li> 
-                            <li>Javascript</li>
+                        <ul className="px-3 w-1/2 md:w-full md:px-0 md:border-l-0">
+                            <li>Agile SCRUM</li>
+                            <li>HTML/CSS/JS</li> 
                             <li>Wireframing</li>
-                            <li>Prototyping</li>
                             <li>Communication</li>
-                            <li>Spanish</li> 
+                            <li>Presentation</li> 
                             
                         </ul>
                     </h1>

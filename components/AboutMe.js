@@ -21,11 +21,13 @@ function AboutMe() {
                 </div>
 
             </div>
-            <div className="w-full transition  p-4 ">
+            <div className="w-full transition p-4 ">
                 {/*Content Text*/}
                 <div className="flex lg:p-0 p-1 space-y-4 flex-col text-left">
-                    <h1 className="justify-center md:text-sm lg:text-md flex align-center text-center">Hey, I'm John. <br/> <br/> I'm the skilled, ready-to-go UX Designer you've been searching for!<br className="border-b-2 border-gray-50"/></h1>
+                    <h1 className="justify-center md:text-sm lg:text-md flex flex-col align-center text-center">Hey, it's John. <br/> <br/> <b>I'm the skilled, ready-to-go UX Designer you've been searching for.</b></h1>
                 </div>
+                <br/>
+                <a href="#contact" className="ml-auto mr-auto w-full"><button className=" p-2 w-max flex text-center justify-center ml-auto mr-auto rounded-full bg-black text-white text-sm font-semibold bg-black ">Contact me</button></a>
             </div>
         </div>
 

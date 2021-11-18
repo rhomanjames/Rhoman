@@ -6,7 +6,11 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      fontFamily: {
+      'Montserrat': ['"Montserrat"']},
   },
   plugins: [],
+}
+
 }
