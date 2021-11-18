@@ -25,7 +25,7 @@ function Resume() {
                 </div>
                 <br/>
                 <div className="flex border-b-2 lg:pb-4 lg:p-0 space-y-3 p-4 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold"> UX Designer and UI Developer</h1> 
+                    <h1 id="text" className="text-lg md:text-xl font-bold"> User Experience Lead</h1> 
                     <p id="text" className="text-xs md:text-md text-gray-400"> Fayette County Public Schools 
                     <Image 
                     src= "/FCPS_star.jpg"
