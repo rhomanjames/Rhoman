@@ -14,12 +14,12 @@ function Skills() {
                     </div>
                     <div className="flex text-center lg:pt-2 lg:pb-4 p-4 flex-col text-left">
                         <h1 id="text" className=" font-semi-bold">Master's Degree</h1>
-                        <p id="text" className="text-xs md:text-md text-gray-400"> Behavioral Psychology <br/> Eastern Kentucky University 
+                        <p id="text" className="text-xs md:text-md"> Behavioral Psychology <br/> Eastern Kentucky University 
                          <br /> Richmond, KY <br /> 2020-2022 </p>
                     </div>
                     <div className="flex text-center lg:p-0 lg:pb-4 p-4 flex-col text-left">
                         <h1 id="text" className=" font-semi-bold">Bachelor's Degree</h1>
-                        <p id="text" className="text-xs md:text-md text-gray-400"> Psychology <br/> Centre College 
+                        <p id="text" className="text-xs md:text-md"> Psychology <br/> Centre College 
                      <br /> Danville, KY <br /> 2015-2019 </p>
                     </div>
                 </div>
