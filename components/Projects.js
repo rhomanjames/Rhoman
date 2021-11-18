@@ -23,7 +23,7 @@ function Projects() {
                 {/*Portfolio*/}
                 <div className="flex lg:p-0 p-4 transition  space-y-4 flex-col text-center">
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">This portfolio</h1>
-                    <h4 className="md:w-3/4 ml-auto mr-auto">I designed built this portfolio from scratch, no template. Check out the responsiveness by resizing the screen.</h4>
+                    <h4 className="md:w-3/4 ml-auto mr-auto">I designed and built this portfolio from scratch, no template. Check out the responsiveness by resizing the screen.</h4>
                     {/*Hashtags*/}
                     <div className="flex overflow-x-scroll w-full justify-center sm:overflow-x-visible space-x-4 border-b-2 pb-8">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">React JS</h4>
