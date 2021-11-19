@@ -50,25 +50,25 @@ function Projects() {
                 </div>
 
                 {/*Portfolio*/}
-                <div className="flex mt- transition border-b-2  lg:p-0 p-4 space-y-4 flex-col text-left">
+                <div className="flex transition border-b-2 justify-center align-center lg:p-0 p-4 space-y-4 flex-col text-left">
                 <Image 
-                    src= "/MinoHire.png"
-                    alt="MinoHire-UI"
-                    download="/MinoHire.png"
-                    className=" Class
-                    Properties
-                    object-contain border-4 border-solid border-gray-100" 
-                    height={216}
-                    width={384}/> 
-                    <a><h1 id="text" className="text-lg cursor-pointer text-center pt-2 md:text-lg lg:text-xl font-bold">MinoHire</h1></a>
-                    <h4 className="text-center">User interface built for a Minority-focused job board. </h4>
+                    src= "/LairdNew.png"
+                    alt="LairdPrototype"
+                    className="lg:hidden border-4 border-solid border-gray-100" 
+                    height={1080}
+                    width={1920}
+                    
+                className="md:hidden"/>
+                <iframe className="ml-auto hidden lg:block mr-auto" width="384" height="216" src="https://xd.adobe.com/embed/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off" frameborder="0" allowfullscreen></iframe>
+                    <a><h1 id="text" className="text-lg cursor-pointer text-center pt-2 md:text-lg lg:text-xl font-bold">Laird Plastics</h1></a>
+                    <h4 className="text-center"><strong className="md:block hidden">Click where the yellow arrow points (above) to follow along.</strong><strong className="md:hidden block">Click the presentation button below to test it out.</strong> <br /> Substantial user flow improvements to the eCommerce store for one of the top plastics distributors in the nation. </h4>
                     {/*Hashtags*/}
                     <div className="flex justify-center w-full space-x-4 pb-4">
-                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">UI</h4>
+                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">Adobe XD</h4>
                         <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-full font-semibold text-black">UX</h4>
                     </div>
                     <div className="flex  w-full justify-center space-x-4 pb-4">
-                        <a target="_blank"  href="https://www.canva.com/design/DAEr7U5a44A/dKtOljxJu_Apr1vhX134ew/view?utm_content=DAEr7U5a44A&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent"> <h4 id="location" className="text-xs bg-black animate-pulse  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Presentation</h4></a>  
+                        <a target="_blank"  href="https://xd.adobe.com/view/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off"> <h4 id="location" className="text-xs bg-black animate-pulse  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Presentation</h4></a>  
                     </div>
                 </div>
 
