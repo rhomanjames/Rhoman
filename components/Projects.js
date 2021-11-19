@@ -97,6 +97,31 @@ function Projects() {
                     
                 </div>
 
+                {/*Truthify*/}
+                <div className="flex mt- transition border-b-2  lg:p-0 p-4 space-y-4 flex-col text-left">
+                <Image 
+                    src= "/Stack.png"
+                    alt="StackPath Website"
+                    className=" Class
+                    Properties
+                    object-contain border-4 border-solid border-gray-100" 
+                    height={216}
+                    width={384}/> 
+                    <a><h1 href="https://www.canva.com/design/DAEr7U5a44A/dKtOljxJu_Apr1vhX134ew/view?utm_content=DAEr7U5a44A\u0026utm_campaign=designshare\u0026utm_medium=link\u0026utm_source=publishpresent" id="text" className="text-lg cursor-pointer text-center pt-2 md:text-lg lg:text-xl font-bold">StackPath Redesign</h1></a>
+                    <h4 className="text-center">UI makeover for StackPath -- an edge computing company in Texas. Click 'View Figma files' below to see wireframe and ideation. </h4>
+                    {/*Hashtags*/}
+                    <div className="flex justify-center w-full space-x-4 pb-4">
+                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">Figma</h4>
+                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">UX</h4>
+                        <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-full font-semibold text-black">UI</h4>
+                    </div>
+                    <div className="flex  w-full justify-center space-x-4 pb-4">
+                        <a target="_blank"  href="https://www.figma.com/file/HR6HluVYfgT5Eia6mQn7rV/StackPath?node-id=0%3A1"> <h4 id="location" className="text-xs bg-black animate-pulse  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Figma files</h4></a>
+                        
+                    </div>
+                    
+                </div>
+
                 {/*Onward*/}
                 <div className="flex mt-8 lg:p-0 transition justify-center w-full  p-4 border-b-2 object-left space-y-4 flex-col text-center ">
                 <Image 
