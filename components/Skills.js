@@ -46,7 +46,7 @@ function Skills() {
                         <ul className="px-3 w-1/2 md:w-full md:px-0 md:border-l-0">
                             <li>Agile SCRUM</li>
                             <li>HTML/CSS/JS</li> 
-                            <li>Wireframing</li>
+                            <li>Consulting</li>
                             <li>Communication</li>
                             <li>Presentation</li> 
                             
