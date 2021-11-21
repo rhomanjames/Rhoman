@@ -59,9 +59,9 @@ function Projects() {
                     width={1920}
                     
                 className="md:hidden"/>
-                <iframe className="ml-auto hidden lg:block mr-auto" width="384" height="216" src="https://xd.adobe.com/embed/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off" frameborder="0" allowfullscreen></iframe>
+                <iframe className="ml-auto hidden mr-auto" width="384" height="216" src="https://xd.adobe.com/embed/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off" frameborder="0" allowfullscreen></iframe>
                     <a><h1 id="text" className="text-lg cursor-pointer text-center pt-2 md:text-lg lg:text-xl font-bold">Laird Plastics</h1></a>
-                    <h4 className="text-center"><strong className="md:block hidden">Click where the yellow arrow points (above) to follow along.</strong><strong className="md:hidden block">Click the presentation button below to test it out.</strong> <br /> Substantial user flow improvements to the eCommerce store for one of the top plastics distributors in the nation. </h4>
+                    <h4 className="text-center"><strong className=" hidden">Click where the yellow arrow points (above) to follow along.</strong><strong className="block">Click the presentation button below to test it out.</strong> <br /> Substantial user flow improvements to the eCommerce store for one of the top plastics distributors in the nation. </h4>
                     {/*Hashtags*/}
                     <div className="flex justify-center w-full space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">Adobe XD</h4>
