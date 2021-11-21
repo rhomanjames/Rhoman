@@ -42,11 +42,11 @@ function Skills() {
                             <li>UX Research</li> 
                             <li>Wireframes</li>
                             <li>Prototypes</li>
-                            <li>Adobe Creative Suite</li>
+                            <li>Agile SCRUM</li>
                         </ul>
                         <ul className="px-3 w-1/2 md:w-full md:px-0 md:border-l-0">
-                            <li>Agile SCRUM</li>
-                            <li>Management</li>
+                            <li>Adobe Creative Suite</li>
+                            <li>Figma</li>
                             <li>HTML/CSS/JS</li> 
                             <li>Consulting</li>
                             <li>Communication</li>
