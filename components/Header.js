@@ -59,6 +59,7 @@ function Header() {
 
             let mode = document.getElementById('mode');
             mode.innerText = 'Light Mode';
+            mode.classList.remove('animate-pulse'); 
 
             let email = document.getElementById('email');
             email.classList.add('text-white');
@@ -114,6 +115,7 @@ function Header() {
 
             let mode = document.getElementById('mode');
             mode.innerText = 'Try Dark Mode';
+            mode.classList.add('animate-pulse'); 
 
             let email = document.getElementById('email');
             email.classList.add('text-black');
