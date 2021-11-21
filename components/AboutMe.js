@@ -7,7 +7,7 @@ function AboutMe() {
     return (
         <div className="w-full left-full flex-col med:flex-row justify-center items-center align-center">
              {/*Image and title*/}
-             <div className=" ml-auto flex justify-center mr-auto">
+             <div className=" ml-auto mt-2 flex justify-center mr-auto">
                     <Image 
                     src= "/portfoliopic.png"
                     alt="Picture of the author"
