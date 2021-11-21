@@ -68,7 +68,7 @@ function Projects() {
                         <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-full font-semibold text-black">UX</h4>
                     </div>
                     <div className="flex  w-full justify-center space-x-4 pb-4">
-                        <a target="_blank"  href="https://xd.adobe.com/view/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off"> <h4 id="location" className="text-xs bg-black animate-pulse  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Presentation</h4></a>  
+                        <a target="_blank"  href="https://xd.adobe.com/view/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off"> <h4 id="location" className="text-xs bg-black animate-pulse  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Prototype</h4></a>  
                     </div>
                 </div>
 
