@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
       <Head>
-        <title>John James | User Experience</title>
+        <title>JohnJamesUX@gmail.com</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
