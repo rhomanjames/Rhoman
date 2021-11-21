@@ -38,6 +38,7 @@ function Skills() {
                     <h1 className="justify-center pb-4 text-sm md:flex-col md:text-sm lg:text-md text-center flex">
                         <ul className="mx-4 w-1/2 md:w-full  md:mx-0">
                             <li>UX Design</li>
+                            <li>UX Strategy</li> 
                             <li>UX Research</li> 
                             <li>Wireframes</li>
                             <li>Prototypes</li>
@@ -45,6 +46,7 @@ function Skills() {
                         </ul>
                         <ul className="px-3 w-1/2 md:w-full md:px-0 md:border-l-0">
                             <li>Agile SCRUM</li>
+                            <li>Management</li>
                             <li>HTML/CSS/JS</li> 
                             <li>Consulting</li>
                             <li>Communication</li>
