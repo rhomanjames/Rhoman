@@ -15,14 +15,12 @@ function Header() {
             home.classList.add('bg-black');
             home.classList.remove('text-black');
             home.classList.remove('bg-white');
-            home.classList.add('border-black');
 
             let skills = document.getElementById('skills');
             skills.classList.add('text-white');
             skills.classList.add('bg-black');
             skills.classList.remove('text-black');
             skills.classList.remove('bg-white');
-            skills.classList.add('border-black');
 
             let header = document.getElementById('header');
             header.classList.add('text-white');
@@ -73,6 +71,8 @@ function Header() {
             home.classList.remove('bg-black');
             home.classList.add('text-black');
             home.classList.add('bg-white');
+            home.classList.remove('border-black');
+
 
             let skills = document.getElementById('skills');
             skills.classList.remove('text-white');
