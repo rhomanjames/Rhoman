@@ -8,12 +8,12 @@ function AboutMe() {
         <div className="w-full left-full flex-col med:flex-row justify-center items-center align-center">
              {/*Image and title*/}
              <div className=" ml-auto mt-2 flex justify-center mr-auto">
-                    <Image 
+                   {/* <Image 
                     src= "/portfoliopic.png"
                     alt="Picture of the author"
                     className="rounded-full border-4 justify-center w-full border-solid border-gray-100" 
                     height={100}
-                    width={100}/>
+                   width={100}/>*/}
             </div>
             <div className="w-full lg:pl-4 px-2 border-b-2 py-2 justify-center text-center flex pr-2 flex-grow  align-center items-center">
                 <div className="w-full">
