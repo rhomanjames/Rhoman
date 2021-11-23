@@ -124,7 +124,7 @@ function Header() {
     }
 
     return (
-        <div id="navbar" className="bg-white bottom-0 absolute mb:0 sm:top-0 text-black shadow-md flex sm:relative sm:mb-8 flex-col h-8">
+        <div id="navbar" className="bg-white text-black shadow-md flex  sm:mb-8 flex-col h-8">
         <   div id="header" className="flex justify-center">
             <h1 id="name" className=" text-center p-2 flex align-center hidden text-black justify-center font-bold">John James</h1>
             <button onClick={nightmode}
