@@ -85,9 +85,9 @@ function Projects() {
                             <li><strong>Stackpath UI Makeover</strong></li> <br/>
                             <li>For Stackpath, a cloud-computing company in Dallas, TX</li><br/>
                             <li>Lead Visual Designer</li><br/>
-                            <li>Stackpath is become one of the world's most valubale edge computing services, but their website didn't reflect their success. </li>
-                            <br/><li>Stackpath has recently shifted their business focus to edge computing, but their website is still catered to their older clients and doesn't focus on attracting new customers. .</li>
-                            <br/><li>The solution I proposed was to clean up the UI, give a clear course of action and reduce cognitive load by taking words off of the screen. Overall, it looks <em>much</em> cleaner than what they had it place.</li>
+                            <li>Stackpath is become one of the <strong>world's most valuable edge computing services</strong>, but their website didn't reflect their success. </li>
+                            <br/><li>Stackpath has recently shifted their business focus to edge computing, but their website was still catered to their older clients and didn't focus on attracting new customers who want to swiftly have their questions answered. Plus, the UI was very cluttered.</li>
+                            <br/><li>The solution I proposed was to <strong>clean up the UI, give a clear course of action and reduce cognitive load </strong>by taking words off of the screen. Overall, it looks <em>much</em> cleaner than what they had it place.</li>
                             <br/><li>This design was praised by the Director of UX, who would like to implement this in 2022.</li>
                             <a target="_blank"  onClick={StackCase}> <h4 id="location" className="text-xs mb-4 bg-black w-max mt-4  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Hide Case Study</h4></a>
                         
@@ -188,7 +188,7 @@ function Projects() {
                     height={216}
                     width={384}/> 
                     <h1 id="text" className="text-lg md:text-lg lg:text-xl font-bold">Daily Scripture Generator</h1>
-                    <h4>Random scripture generator with a clean UI that is structured around object orentied programming. Share to social media with one click.</h4>
+                    <h4>Side project -- Random scripture generator with a clean UI that is structured around object orentied programming. Share to social media with one click.</h4>
                     {/*Hashtags*/}
                     <div className="flex overflow-x-scroll w-full justify-center sm:overflow-x-visible space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">React JS</h4>
