@@ -41,6 +41,7 @@ function Projects() {
                     <div className="flex  w-full justify-center space-x-4 pb-4">
                         <a target="_blank"  href="https://xd.adobe.com/view/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off"> <h4 id="location" className="text-xs bg-black animate-pulse  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Prototype</h4></a>  
                         <a target="_blank"  onClick={LairdCase}> <h4 id="LairdCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Case Study</h4></a>
+                        <a target="_blank"  href="https://www.canva.com/design/DAEwkB1ECdY/3aV5q7URYgCJ6mAdRwuazA/view?utm_content=DAEwkB1ECdY&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent"> <h4 id="LairdCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Strategy </h4></a>
                     </div>
                     <div id="LairdCaseStudy" className="hidden">
                         <ol>
@@ -48,9 +49,9 @@ function Projects() {
                             <li>For North American Plastics (Parent Company)</li><br/>
                             <li>Lead UX Designer and Researcher</li><br/>
                             <li>Laird Plastics is one of the top plastics distributors in the country, but their website is causing them to lose out on valuable business. After reviewing data and conducting interviews, I <strong> redesigned their UI to optimize the user experience.</strong></li>
-                            <br/><li>B2B eCommerce is different from B2C, so we had to figure out how to effectively <strong>implement a successful UI that would work for B2B and B2C customers.</strong></li>
-                            <br/><li>To solve this dilemma, we adapted some common B2C eCommerce trends and integrated it with the B2B requirements. <strong>Therefore we kept the modernity of B2C eCommerce while facilitating the B2B experience.</strong></li>
-                            <br/><li>The UI has recieved great feedback and is set to launch in Q1 of 2022.</li>
+                            <br/><li>B2B eCommerce is different from B2C, so we had to figure out how to effectively <strong>implement a successful UX strategy that would work for B2B and B2C customers.</strong></li>
+                            <br/><li>To solve this dilemma, we adapted some common B2C eCommerce trends and integrated it with the B2B requirements. <strong>Therefore we kept the modernity of B2C eCommerce while facilitating the B2B experience. We partnered with a full-service implementation partner to bring this to life.</strong></li>
+                            <br/><li>The full plan is set to launch in Q1 of 2022.</li>
                             <a target="_blank"  onClick={LairdCase}> <h4 id="location" className="text-xs mb-4 bg-black w-max mt-4  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Hide Case Study</h4></a>
                         
                         </ol>
