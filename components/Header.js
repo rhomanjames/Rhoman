@@ -124,17 +124,37 @@ function Header() {
     }
 
     return (
-        
-        <div id="header" className="mt-0 h-12 bg-white shadow-md flex-col p-2 md:flex-row items-center justify-center flex transition sticky z-10 mb-8 top-0  w-full ">
-            <h1 id="name" className=" absolute align-center text-black justify-center font-bold">John James</h1>
+        <div id="navbar" className="bg-white text-black shadow-md flex mb-8 flex-col h-8">
+        <   div id="header" className="flex justify-center">
+            <h1 id="name" className=" text-center p-2 flex align-center text-black justify-center font-bold">John James</h1>
             <button onClick={nightmode}
                 id="mode" className="right-4 hidden md:block text-sm bg-black p-2 rounded-full text-white absolute">Dark Mode</button>
-            {/*Logo*/} 
+            {/*Logo*/}  
             </div>
-
+            <div className="flex fixed justify-center space-x-8 font-bold y z-30 p-2 bg-white w-full text-black">
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button onClick={nightmode}
+                id="mode" className="right-4 hidden md:block text-xs  p-1 rounded-full text-black absolute">Change Theme</button>
+            </div>
+        </div>
+            
             
     )
-
+        function header () {
+            var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+        }
 
 }
 
