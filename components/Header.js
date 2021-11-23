@@ -114,8 +114,7 @@ function Header() {
             name.classList.remove('text-white');
 
             let mode = document.getElementById('mode');
-            mode.innerText = 'Try Dark Mode';
-            mode.classList.add('animate-pulse'); 
+            mode.innerText = 'Dark Mode';
 
             let email = document.getElementById('email');
             email.classList.add('text-black');
@@ -129,7 +128,7 @@ function Header() {
         <div id="header" className="mt-0 h-12 bg-white shadow-md flex-col p-2 md:flex-row items-center justify-center flex transition sticky z-10 mb-8 top-0  w-full ">
             <h1 id="name" className=" absolute align-center text-black justify-center font-bold">John James</h1>
             <button onClick={nightmode}
-                id="mode" className="right-4 hidden md:block animate-pulse text-sm bg-black p-2 rounded-full text-white absolute">Try Dark Mode</button>
+                id="mode" className="right-4 hidden md:block text-sm bg-black p-2 rounded-full text-white absolute">Dark Mode</button>
             {/*Logo*/} 
             </div>
 
