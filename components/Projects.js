@@ -23,6 +23,41 @@ function Projects() {
                 {/*Portfolio*/}
                 <div className="flex transition border-b-2 justify-center align-center lg:p-0 p-4 space-y-4 flex-col text-left">
                 <Image 
+                    src= "/NAP.png"
+                    alt="North American Plastics Presentation"
+                    className="lg:hidden border-4 border-solid border-gray-100" 
+                    height={1080}
+                    width={1920}
+                    
+                className="md:hidden"/>
+                <iframe className="ml-auto hidden mr-auto" width="384" height="216" src="https://xd.adobe.com/embed/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off" frameborder="0" allowfullscreen></iframe>
+                    <a><h1 id="text" className="text-lg cursor-pointer text-center pt-2 md:text-lg lg:text-xl font-bold">North American Plastics</h1></a>
+                    <h4 className="text-center">Unify all 20+ plastics brands under the North American Plastics Brand. </h4>
+                    {/*Hashtags*/}
+                    <div className="flex justify-center w-full space-x-4 pb-4">
+                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">UX Strategy</h4>
+                        <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-full font-semibold text-black">UX Research</h4>
+                    </div>
+                    <div className="flex  w-full justify-center space-x-4 pb-4">
+                    <a target="_blank"  onClick={NAPCase}> <h4 id="NAPCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Case Study Overview</h4></a>  
+                        <a target="_blank"  href="https://www.canva.com/design/DAEw113XkM0/hnc8mNY4hceLiZ2n0_dBnw/view?utm_content=DAEw113XkM0&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent"> <h4 id="NAPCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Strategy </h4></a>
+                    </div>
+                    <div id="NAPCaseStudy" className="hidden">
+                        <ol>
+                            <li><strong>North American Plastics Digital Transformation</strong></li> <br/>
+                            <li>User Experience Lead</li><br/>
+                            <li>North Plastics has more than 20 brands under their umbrella, but their online presence is far from unified. NAP needed a <strong>clear strategy to successfully unify their brands digitally.</strong></li>
+                            <br/><li>NAP has thrived on a decentralization model, which is great for the traditional sales model (e.g. through invoices, sales reps), but not so much for eCommerce. They needed a plan to <strong> unify these brands under one recognizable brand family.</strong></li>
+                            <br/><li>This plan is already in action and is set to roll out successfully over the next 3 years. Phase 1 is expected to be complete by Q2 of 2022.</li>
+                            <a target="_blank"  onClick={NAPCase}> <h4 id="location" className="text-xs mb-4 bg-black w-max mt-4  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Hide Overview</h4></a>
+                        
+                        </ol>
+                    </div>
+                </div>
+
+                {/*Portfolio*/}
+                <div className="flex transition border-b-2 justify-center align-center lg:p-0 p-4 space-y-4 flex-col text-left">
+                <Image 
                     src= "/LairdNew.png"
                     alt="LairdPrototype"
                     className="lg:hidden border-4 border-solid border-gray-100" 
@@ -36,11 +71,11 @@ function Projects() {
                     {/*Hashtags*/}
                     <div className="flex justify-center w-full space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">Adobe XD</h4>
-                        <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-full font-semibold text-black">UX</h4>
+                        <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-full font-semibold text-black">UX Design</h4>
                     </div>
                     <div className="flex  w-full justify-center space-x-4 pb-4">
                     <a target="_blank"  onClick={LairdCase}> <h4 id="LairdCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Case Study Overview</h4></a>
-                        <a target="_blank"  href="https://xd.adobe.com/view/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off"> <h4 id="location" className="text-xs bg-black animate-pulse  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Prototype</h4></a>  
+                        <a target="_blank"  href="https://xd.adobe.com/view/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off"> <h4 id="location" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Prototype</h4></a>  
                         <a target="_blank"  href="https://www.canva.com/design/DAEwkB1ECdY/3aV5q7URYgCJ6mAdRwuazA/view?utm_content=DAEwkB1ECdY&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent"> <h4 id="LairdCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Strategy </h4></a>
                     </div>
                     <div id="LairdCaseStudy" className="hidden">
@@ -52,7 +87,7 @@ function Projects() {
                             <br/><li>B2B eCommerce is different from B2C, so we had to figure out how to effectively <strong>implement a successful UX strategy that would work for B2B and B2C customers.</strong></li>
                             <br/><li>To solve this dilemma, we adapted some common B2C eCommerce trends and integrated it with the B2B requirements. <strong>Therefore we kept the modernity of B2C eCommerce while facilitating the B2B experience. We partnered with a full-service implementation partner to bring this to life.</strong></li>
                             <br/><li>The full plan is set to launch in Q1 of 2022.</li>
-                            <a target="_blank"  onClick={LairdCase}> <h4 id="location" className="text-xs mb-4 bg-black w-max mt-4  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Hide Case Study</h4></a>
+                            <a target="_blank"  onClick={LairdCase}> <h4 id="location" className="text-xs mb-4 bg-black w-max mt-4  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Hide Overview</h4></a>
                         
                         </ol>
                     </div>
@@ -196,6 +231,23 @@ function Projects() {
             let Laird = document.getElementById('LairdCaseStudy')
             let btn = document.getElementById('LairdCase')
         Laird.classList.add('hidden');
+        btn.innerText = 'View Case Study'
+        }
+
+    }
+
+    function NAPCase () {
+        if (document.getElementById('NAPCaseStudy').classList.contains('hidden')) {
+            let NAP = document.getElementById('NAPCaseStudy')
+            let btn = document.getElementById('NAPCase')
+        NAP.classList.remove('hidden');
+        btn.innerText = 'Hide Case Study'
+        }
+
+        else {
+            let NAP = document.getElementById('NAPCaseStudy')
+            let btn = document.getElementById('NAPCase')
+        NAP.classList.add('hidden');
         btn.innerText = 'View Case Study'
         }
 
