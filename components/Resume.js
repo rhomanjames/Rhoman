@@ -46,11 +46,6 @@ function Resume() {
                     <h1 className="">Programmed a cognitive test using Inquisit software for a psychological study which assessed delays in response time due to mobile device distractions<br /> <br /> Analyzed empirical data about User Experience (UX) and presented to college faculty and students <br /> </h1>
                 </div>
                 <br /> 
-                <div className="flex mb-4 lg:p-0 p-2 space-y-3 flex-col text-left">
-                    <h1 id="text" className="text-lg md:text-xl font-bold"> Computer Science Instructor</h1>
-                    <p id="text" className="text-xs md:text-md text-gray-400">Uncommon Schools | Boston, MA<br /> 2018</p>
-                    <h1 className="">Curated 10 weeks of various lessons, effectively teaching the fundamentals of computer science resulting in 100% of students passing the final exam</h1>
-                </div>
             </div>
         </div>
 
