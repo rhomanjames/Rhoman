@@ -39,8 +39,8 @@ function Projects() {
                         <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-full font-semibold text-black">UX</h4>
                     </div>
                     <div className="flex  w-full justify-center space-x-4 pb-4">
+                    <a target="_blank"  onClick={LairdCase}> <h4 id="LairdCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Case Study Overview</h4></a>
                         <a target="_blank"  href="https://xd.adobe.com/view/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off"> <h4 id="location" className="text-xs bg-black animate-pulse  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Prototype</h4></a>  
-                        <a target="_blank"  onClick={LairdCase}> <h4 id="LairdCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Case Study</h4></a>
                         <a target="_blank"  href="https://www.canva.com/design/DAEwkB1ECdY/3aV5q7URYgCJ6mAdRwuazA/view?utm_content=DAEwkB1ECdY&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent"> <h4 id="LairdCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Strategy </h4></a>
                     </div>
                     <div id="LairdCaseStudy" className="hidden">
