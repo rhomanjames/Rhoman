@@ -32,7 +32,7 @@ function Projects() {
                 className="md:hidden"/>
                 <iframe className="ml-auto hidden mr-auto" width="384" height="216" src="https://xd.adobe.com/embed/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off" frameborder="0" allowfullscreen></iframe>
                     <a><h1 id="text" className="text-lg cursor-pointer text-center pt-2 md:text-lg lg:text-xl font-bold">North American Plastics</h1></a>
-                    <h4 className="text-center">Unify all 20+ plastics brands under the North American Plastics Brand. </h4>
+                    <h4 className="text-center">Unify all 20+ plastics brands under the North American PLastics brand name. NAP is the #1 plastics distributor in North America. </h4>
                     {/*Hashtags*/}
                     <div className="flex justify-center w-full space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">UX Strategy</h4>
