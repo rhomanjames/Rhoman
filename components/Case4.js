@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { HeartIcon, MailIcon } from '@heroicons/react/solid'
 
 
-function Projects() {
+function Case4() {
     function Like(clicked_id)
     {
         document.clicked_id.style.color = 'red';
@@ -11,10 +11,10 @@ function Projects() {
     return (
         <div className="w-full flex-col med:flex-row items-center align-center">
              {/*Image and title*/}
-            <div className="w-full pb-4 px-8 py-2 flex flex-grow  align-center items-center">
+            <div className="w-full border-b-2 pb-4 px-8 py-2 flex flex-grow  align-center items-center">
 
                 <div className="w-full">
-                <h1 className="text-xl  w-full align-center justify-center h-full mt-auto flex-grow flex font-bold">Projects</h1>
+                <h1 className="text-xl  w-full align-center justify-center h-full mt-auto flex-grow flex font-bold">Case Study 4 </h1>
                 </div>
 
             </div>
@@ -22,19 +22,25 @@ function Projects() {
 
                 {/*Portfolio*/}
                 <div className="flex transition border-b-2 justify-center align-center lg:p-0 p-4 space-y-4 flex-col text-left">
-                    <div>
-                    <iframe width="100%" height="540px" ading="lazy"
-        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEw113XkM0&#x2F;view?embed">
-            </iframe>
-        </div>
-         <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEw113XkM0&#x2F;view?utm_content=DAEw113XkM0&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a> 
-            
+                <Image 
+                    src= "/NAP.png"
+                    alt="North American Plastics Presentation"
+                    className="lg:hidden border-4 border-solid border-gray-100" 
+                    height={1080}
+                    width={1920}
+                    
+                className="md:hidden"/>
                 <iframe className="ml-auto hidden mr-auto" width="384" height="216" src="https://xd.adobe.com/embed/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off" frameborder="0" allowfullscreen></iframe>
-                    <a><h1 id="text" className="text-lg cursor-pointer text-center pt-2 md:text-lg lg:text-xl font-bold">North American Plastics (NAP) Case Study</h1></a>
-                    <h4 className="text-center">Click through the presentation above to see my process for transforming the online identity for NAP's flagship brand, Laird Plastics. </h4>
+                    <a><h1 id="text" className="text-lg cursor-pointer text-center pt-2 md:text-lg lg:text-xl font-bold">North American Plastics</h1></a>
+                    <h4 className="text-center">Unify all 20+ plastics brands under the North American PLastics brand name. NAP is the #1 plastics distributor in North America. </h4>
                     {/*Hashtags*/}
-                    <div className="flex  w-full justify-center space-x-4 pb-4">  
-                        <a target="_blank"  href="https://www.canva.com/design/DAEw113XkM0/hnc8mNY4hceLiZ2n0_dBnw/view?utm_content=DAEw113XkM0&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent"> <h4 id="NAPCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Presentation Full Screen </h4></a>
+                    <div className="flex justify-center w-full space-x-4 pb-4">
+                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">UX Strategy</h4>
+                        <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-full font-semibold text-black">UX Research</h4>
+                    </div>
+                    <div className="flex  w-full justify-center space-x-4 pb-4">
+                    <a target="_blank"  onClick={NAPCase}> <h4 id="NAPCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Case Study Overview</h4></a>  
+                        <a target="_blank"  href="https://www.canva.com/design/DAEw113XkM0/hnc8mNY4hceLiZ2n0_dBnw/view?utm_content=DAEw113XkM0&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent"> <h4 id="NAPCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Strategy </h4></a>
                     </div>
                     <div id="NAPCaseStudy" className="hidden">
                         <ol>
@@ -49,7 +55,45 @@ function Projects() {
                     </div>
                 </div>
 
-                  {/*Truthify*
+                {/*Portfolio*/}
+                <div className="flex transition border-b-2 justify-center align-center lg:p-0 p-4 space-y-4 flex-col text-left">
+                <Image 
+                    src= "/LairdNew.png"
+                    alt="LairdPrototype"
+                    className="lg:hidden border-4 border-solid border-gray-100" 
+                    height={1080}
+                    width={1920}
+                    
+                className="md:hidden"/>
+                <iframe className="ml-auto hidden mr-auto" width="384" height="216" src="https://xd.adobe.com/embed/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off" frameborder="0" allowfullscreen></iframe>
+                    <a><h1 id="text" className="text-lg cursor-pointer text-center pt-2 md:text-lg lg:text-xl font-bold">Laird Plastics</h1></a>
+                    <h4 className="text-center">Substantial user flow improvements to the eCommerce store for one of the top plastics distributors in the nation. </h4>
+                    {/*Hashtags*/}
+                    <div className="flex justify-center w-full space-x-4 pb-4">
+                        <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">Adobe XD</h4>
+                        <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-full font-semibold text-black">UX Design</h4>
+                    </div>
+                    <div className="flex  w-full justify-center space-x-4 pb-4">
+                    <a target="_blank"  onClick={LairdCase}> <h4 id="LairdCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Case Study Overview</h4></a>
+                        <a target="_blank"  href="https://xd.adobe.com/view/813503a6-6445-4676-aba4-c4a3f4307d0f-d466/?fullscreen&hints=off"> <h4 id="location" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Prototype</h4></a>  
+                        <a target="_blank"  href="https://www.canva.com/design/DAEwkB1ECdY/3aV5q7URYgCJ6mAdRwuazA/view?utm_content=DAEwkB1ECdY&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent"> <h4 id="LairdCase" className="text-xs bg-black  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Strategy </h4></a>
+                    </div>
+                    <div id="LairdCaseStudy" className="hidden">
+                        <ol>
+                            <li><strong>Laird Plastics Digital Transformation</strong></li> <br/>
+                            <li>For North American Plastics (Parent Company)</li><br/>
+                            <li>Lead UX Designer and Researcher</li><br/>
+                            <li>Laird Plastics is one of the top plastics distributors in the country, but their website is causing them to lose out on valuable business. After reviewing data and conducting interviews, I <strong> redesigned their UI to optimize the user experience.</strong></li>
+                            <br/><li>B2B eCommerce is different from B2C, so we had to figure out how to effectively <strong>implement a successful UX strategy that would work for B2B and B2C customers.</strong></li>
+                            <br/><li>To solve this dilemma, we adapted some common B2C eCommerce trends and integrated it with the B2B requirements. <strong>Therefore we kept the modernity of B2C eCommerce while facilitating the B2B experience. We partnered with a full-service implementation partner to bring this to life.</strong></li>
+                            <br/><li>The full plan is set to launch in Q1 of 2022.</li>
+                            <a target="_blank"  onClick={LairdCase}> <h4 id="location" className="text-xs mb-4 bg-black w-max mt-4  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Hide Overview</h4></a>
+                        
+                        </ol>
+                    </div>
+                </div>
+
+                  {/*Truthify*/}
                   <div className="flex mt- transition border-b-2  lg:p-0 p-4 space-y-4 flex-col text-left">
                 <Image 
                     src= "/Stack.png"
@@ -61,7 +105,7 @@ function Projects() {
                     width={384}/> 
                     <a><h1 href="https://www.canva.com/design/DAEr7U5a44A/dKtOljxJu_Apr1vhX134ew/view?utm_content=DAEr7U5a44A\u0026utm_campaign=designshare\u0026utm_medium=link\u0026utm_source=publishpresent" id="text" className="text-lg cursor-pointer text-center pt-2 md:text-lg lg:text-xl font-bold">StackPath Redesign</h1></a>
                     <h4 className="text-center">UI makeover for StackPath -- an edge computing company in Texas. Click 'View Figma files' below to see wireframe and ideation. </h4>
-                    
+                    {/*Hashtags*/}
                     <div className="flex justify-center w-full space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">Figma</h4>
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">UX</h4>
@@ -88,17 +132,17 @@ function Projects() {
                     
                 </div>
 
-                
+                {/*Portfolio*/}
                 <div className="flex lg:p-0 p-4 transition  space-y-4 flex-col text-center">
                     <h1 id="text" className="text-lg md:text-lg mt-4 lg:text-xl font-bold">This portfolio</h1>
                     <h4 className="md:w-3/4 ml-auto mr-auto">I designed and built this portfolio with React JS, Next JS and Tailwind CSS, no template. Beautiful, aesthetic gradient, optimized for recruiters and hiring managers to scroll through seamlessly. Check out the responsiveness by resizing the screen.</h4>
-                    
+                    {/*Hashtags*/}
                     <div className="flex overflow-x-scroll w-full justify-center sm:overflow-x-visible space-x-4 border-b-2 pb-8">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">React JS</h4>
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">Next JS</h4>
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">Tailwind CSS</h4>
                     </div>
-                </div> */}
+                </div>
 
 
                 {/*Truthify*/}
@@ -117,6 +161,7 @@ function Projects() {
                     {/*Hashtags*/}
                     <div className="flex justify-center w-full space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">UI</h4>
+                        <h4 id="location" className="text-xs bg-white border-2   p-2 rounded-full font-semibold text-black">UX</h4>
                     </div>
                     <div className="flex  w-full justify-center space-x-4 pb-4">
                         <a target="_blank"  href="https://www.canva.com/design/DAEr7VXtTrQ/nyA3IWhghgUB3uFInbgFIQ/view?utm_content=DAEr7VXtTrQ&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent"> <h4 id="location" className="text-xs bg-black animate-pulse  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">View Presentation</h4></a>
@@ -126,7 +171,7 @@ function Projects() {
                 </div>
 
 
-                {/*Onward
+                {/*Onward*/}
                 <div className="flex mt-8 lg:p-0 transition justify-center w-full  p-4 border-b-2 object-left space-y-4 flex-col text-center ">
                 <Image 
                     src= "/Onward1.png"
@@ -138,21 +183,20 @@ function Projects() {
                     width={384}/> 
                     <h1 id="text" className="text-lg justify-center w-full md:text-lg lg:text-xl font-bold">Onward Upward</h1>
                     <h4> Built for a youth mentoring group to compile learning resources. Simple and clean UI optimized for quick access. </h4>
-                
+                    {/*Hashtags*/}
                     <div className="flex overflow-x-scroll w-full justify-center sm:overflow-x-visible space-x-4 pb-4">
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">UX</h4>
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">HTML</h4>
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">CSS</h4>
                         <h4 id="location" className="text-xs bg-white border-2  p-2 rounded-full font-semibold text-black">Responsive</h4>
                     </div>
-                    
+                    {/*Buttons*/}
                     <div className="flex  w-full justify-center space-x-4 pb-4">
                     <a target="_blank"  href="https://github.com/rhomanjames/Onward-Upward"> <h4 id="location" className="text-xs bg-white p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black transition cursor-pointer text-black">GitHub</h4> </a> 
                         <a target="_blank"  href="https://rhomanjames.github.io/Onward-Upward/"> <h4 id="location" className="text-xs bg-black animate-pulse  p-2 rounded-full font-semibold hover:bg-white hover:text-black border-2 border-transparent hover:border-black cursor-pointer transition text-white">Live Demo</h4></a>
                         
                     </div>
-                </div> */}
-
+                </div>
                 {/*88 Hacks*/}
                 <div className="flex mt-8  lg:p-0 p-4 transition  space-y-4 flex-col text-center">
                 <Image 
@@ -227,4 +271,4 @@ function Projects() {
     }
 }
 
-export default Projects
+export default Case4
